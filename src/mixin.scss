@@ -1,0 +1,456 @@
+$border_block: #dfe6ec;
+$grey_line: #eaeaea;
+$grey_text: #9aa0a7;
+$blue: #127bca;
+$orange: #f47216; //rgba(244,114,22);
+$maxIndex: 100500;
+$black: #1d2329;
+
+@mixin setMaxZIndex($howMuchMore){
+    @if $howMuchMore {
+        z-index: #{$maxIndex + $howMuchMore};
+    } @else {
+         z-index: $maxIndex;
+    }
+}
+
+@mixin optional-at-root($sel) {
+    @at-root #{if(not &, $sel, selector-append(&, $sel))} {
+        @content;
+    }
+}
+
+@mixin placeholder {
+    &::-webkit-input-placeholder {
+        @content
+    }
+
+    ;
+
+    &:-moz-placeholder {
+        @content
+    }
+
+    ;
+
+    &::-moz-placeholder {
+        @content
+    }
+
+    ;
+
+    &:-ms-input-placeholder {
+        @content
+    }
+
+    ;
+}
+
+@mixin btn_text_style {
+    font-size: 13px;
+    font-family: $Roboto;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    line-height: 13px;
+
+    &:disabled {
+        opacity: 0.3;
+        cursor: not-allowed;
+        pointer-events: none;
+
+        &:not:hover {}
+    }
+}
+
+@mixin collapsedText {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    // width: 100%;
+    white-space: nowrap;
+}
+
+@mixin tooltip($colorBack, $colorText, $position) {
+    text-align: center;
+    color: $colorText;
+    background-color: $colorBack;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1px;
+    transition: opacity 0.2s 1s ease;
+    position: absolute;
+    z-index: 100510;
+    padding: 5px 10px;
+    display: inline-block;
+    visibility: visible;
+    opacity: 1;
+
+    @if $position==top {
+        &:after {
+            content: "";
+            width: 0;
+            height: 0;
+            position: absolute;
+            border-top-color: $colorBack;
+            border-top-style: solid;
+            border-top-width: 6px;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            bottom: -6px;
+            left: 50%;
+            margin-left: -8px;
+        }
+    }
+
+    @else if $position==right {
+        &:after {
+            content: "";
+            width: 0;
+            height: 0;
+            position: absolute;
+            border-right-color: $colorBack;
+            border-right-style: solid;
+            border-right-width: 6px;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            top: 50%;
+            right: -6px;
+            margin-top: -8px;
+        }
+    }
+
+    @else if $position==bottom {
+        &:after {
+            content: "";
+            width: 0;
+            height: 0;
+            position: absolute;
+            border-bottom-color: $colorBack;
+            border-bottom-style: solid;
+            border-bottom-width: 6px;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            top: -6px;
+            left: 50%;
+            margin-left: -8px;
+        }
+    }
+
+    @else if $position==left {
+        &:after {
+            content: "";
+            width: 0;
+            height: 0;
+            position: absolute;
+            border-left-color: $colorBack;
+            border-left-style: solid;
+            border-left-width: 6px;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            top: 50%;
+            right: -6px;
+            margin-top: -8px;
+        }
+    }
+
+    @else {
+        @error "Unknown direction #{$position}.";
+    }
+}
+
+@mixin outlineBlockShadow($shadowColor) {
+    -webkit-box-shadow: 0px 0px 26px 3px $shadowColor;
+    -moz-box-shadow: 0px 0px 26px 3px $shadowColor;
+    box-shadow: 0px 0px 26px 3px $shadowColor;
+}
+
+@mixin insetBlockShadow($shadowColor) {
+    -webkit-box-shadow: inset 0px 0px 90px -66px $shadowColor;
+    -moz-box-shadow: inset 0px 0px 90px -66px $shadowColor;
+    box-shadow: inset 0px 0px 90px -66px $shadowColor;
+}
+
+
+// .foo {
+//   @include placeholder {
+//     color: green;
+//   }
+// }
+
+// @include placeholder {
+//   color: red;
+// }
+
+/* Let's get this party started */
+
+.scroll {
+    //@extend .scroll
+    // overflow-y:scroll;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+/* Track */
+.scroll::-webkit-scrollbar-track {
+    // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 11px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+/* Handle */
+.scroll::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #9aa0a7;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.scroll::-webkit-scrollbar-thumb:window-inactive {
+    background: #9aa0a7;
+}
+
+.clear {
+    content: " ";
+    display: block;
+    clear: both;
+    float: none;
+}
+
+@mixin clear {
+    content: " ";
+    display: block;
+    clear: both;
+    float: none;
+}
+
+@mixin PosAbsVertical {
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+@mixin PosAbsHorizontal {
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+@mixin PosAbsCent {
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+@mixin PosFixCent {
+    position: fixed;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+@mixin transitionall {
+    transition: all 0.4s ease;
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: .2;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .2;
+    }
+}
+
+@mixin saveAnimation($duration) {
+    span {
+        animation-name: blink;
+        animation-duration: $duration; //1.4s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+    }
+    span:nth-child(2){
+        animation-delay: .2s;
+    }
+    span:nth-child(3) {
+        animation-delay: .4s;
+    }
+}
+
+
+
+@-webkit-keyframes flip {
+    from {
+        -webkit-transform: perspective(400px) scale3d(1, 1, 1)  rotate3d(0, 1, 0, -360deg);
+        transform: perspective(400px) scale3d(1, 1, 1)  rotate3d(0, 1, 0, -360deg);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) scale3d(1, 1, 1)  rotate3d(0, 1, 0, -190deg);
+        transform: perspective(400px) scale3d(1, 1, 1)  rotate3d(0, 1, 0, -190deg);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    50% {
+        -webkit-transform: perspective(400px) scale3d(1, 1, 1)  rotate3d(0, 1, 0, -170deg);
+        transform: perspective(400px) scale3d(1, 1, 1)  rotate3d(0, 1, 0, -170deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95)  rotate3d(0, 1, 0, 0deg);
+        transform: perspective(400px) scale3d(0.95, 0.95, 0.95)  rotate3d(0, 1, 0, 0deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    to {
+        -webkit-transform: perspective(400px) scale3d(1, 1, 1) rotate3d(0, 1, 0, 0deg);
+        transform: perspective(400px) scale3d(1, 1, 1) rotate3d(0, 1, 0, 0deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+}
+
+@keyframes flip {
+    from {
+        // -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
+        // transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
+        transform: perspective(400px) scale3d(1, 1, 1)  rotate3d(0, 1, 0, -360deg); //translate3d(0, 0, 0)
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+    }
+
+    40% {
+        // -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+        // transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+        transform: perspective(400px) scale3d(1, 1, 1)  rotate3d(0, 1, 0, -190deg); //translate3d(0, 0, 150px)
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+    }
+
+    50% {
+        // -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+        // transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+        transform: perspective(400px) scale3d(1, 1, 1)  rotate3d(0, 1, 0, -170deg); //translate3d(0, 0, 150px)
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+    }
+
+    80% {
+        // -webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+        // transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+        transform: perspective(400px) scale3d(0.95, 0.95, 0.95)  rotate3d(0, 1, 0, 0deg); //translate3d(0, 0, 0)
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+    }
+
+    to {
+        // -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+        // transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+        transform: perspective(400px) scale3d(1, 1, 1)  rotate3d(0, 1, 0, 0deg); //translate3d(0, 0, 0)
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+    }
+}
+
+@mixin flipAnimation($duration, $animationCount) {
+    -webkit-animation-duration:  $duration;
+    animation-duration:          $duration;
+    -webkit-animation-duration:  var(--animate-duration);
+    animation-duration:          var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode:         both;
+    -webkit-backface-visibility: visible;
+    backface-visibility:         visible;
+    -webkit-animation-name:      flip;
+    animation-name:              flip;
+    animation-iteration-count:   $animationCount; //infinite; 3; 2.3; 2,3;
+}
+
+@-webkit-keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@mixin zoomInAnimation() {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+
+
+@mixin transitionall {
+    transition: all 0.2s ease-out;
+}
+
+@mixin hiddenText {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+
+@mixin sizePosition($size){
+    $marginTop: ($size/2);
+    $marginLeft: ($size/2);
+    width: $size;
+    height: $size;
+    margin-top: -$marginTop;
+    margin-left:  -$marginLeft;
+}
+@mixin animationDelay($delay){
+    -webkit-animation-delay: $delay;
+    -moz-animation-delay: $delay;
+    -ms-animation-delay: $delay;
+    -o-animation-delay: $delay;
+    animation-delay: $delay;
+}
+@mixin initAnimation($animation_name, $animation_duration, $count, $direction, $animationStyle){
+    -webkit-animation: $animation_name $animation_duration $count $direction $animationStyle;
+    -moz-animation: $animation_name $animation_duration $count $direction $animationStyle;
+    -ms-animation: $animation_name $animation_duration $count $direction $animationStyle;
+    -o-animation: $animation_name $animation_duration $count $direction $animationStyle;
+    animation: $animation_name $animation_duration $count $direction $animationStyle;
+}

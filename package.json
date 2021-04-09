@@ -1,0 +1,46 @@
+{
+    "name": "dd-date-time-input",
+    "version": "1.0.0",
+    "description": "will write later",
+    "main": "index.js",
+    "scripts": {
+        "test": "xz",
+        "dev": "cross-env NODE_ENV=development  webpack-dev-server  --mode development --config webpack.config.dev.js ",
+        "build_PRODUCTION": "cross-env NODE_ENV=production  webpack --mode production --config webpack.buildProduction.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VaskaDagamas/dd-date-time-input.git"
+    },
+    "keywords": [
+        "react-time-input",
+        "dd.mm.yyyy-timeinput",
+        "input-dd.mm.yyyy-hh.mm.ss-date-and-time-picker",
+        "date-time-picker",
+        "doubleValues=time-picker"
+    ],
+    "author": "VaskaDagama <vaskinemail@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/VaskaDagamas/dd-date-time-input/issues"
+    },
+    "homepage": "https://github.com/VaskaDagamas/dd-date-time-input#readme",
+    "dependencies": {
+        "copy-webpack-plugin": "8.1.1",
+        "css-loader": "5.2.1",
+        "extract-text-webpack-plugin": "3.0.2",
+        "hard-source-webpack-plugin": "0.13.1",
+        "html-webpack-plugin": "5.3.1",
+        "lodash": "4.17.21",
+        "lodash-webpack-plugin": "0.11.6",
+        "mini-css-extract-plugin": "1.4.1",
+        "moment": "2.29.1",
+        "path": "0.12.7",
+        "react": "17.0.2",
+        "webpack": "5.31.2",
+        "webpack-cli": "4.6.0",
+        "webpack-dashboard": "3.3.1",
+        "webpack-entrypoints-plugin": "1.1.1",
+        "webpack-merge": "5.7.3"
+    }
+}

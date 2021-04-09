@@ -1,6 +1,5 @@
 import React            from 'react'
-import ReactDOM         from 'react-dom'
-import  'css/choose_time_copy.scss'
+import  'choose_time.scss'
 
 
 

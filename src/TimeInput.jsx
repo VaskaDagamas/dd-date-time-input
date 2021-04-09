@@ -1,8 +1,7 @@
 import React, {useReducer, Component, Fragment}  	from 'react'
-import {connect}                        		from 'react-redux';
 import moment 					from 'moment'
 import _ 	 					from "lodash"
-import NewCalendar				from  'components/InfiniteCalendar/NewCalendar.jsx'
+import NewCalendar				from  './InfiniteCalendar/NewCalendar.jsx'
 import {calendarIcon} 			from "images/simple_svg_icons.jsx"
 import ClickOutside  			from 'react-click-outside'
 import InputInstructions,
