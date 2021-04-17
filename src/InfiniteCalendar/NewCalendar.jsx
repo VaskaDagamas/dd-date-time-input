@@ -10,7 +10,7 @@ import DateInput from './date/DateInput.js';
 import { getTimeConfig, getTodayTime } from './util/index';
 import PropTypes from 'prop-types';
 import ClickOutside from 'react-click-outside'
-import "css/calendar.scss"
+import "../calendar.scss"
 import createReactClass from 'create-react-class'
 
 function noop() {}

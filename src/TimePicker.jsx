@@ -1,5 +1,5 @@
 import React            from 'react'
-import  'choose_time.scss'
+import  './choose_time.scss'
 
 
 
@@ -18,18 +18,15 @@ class TimePicker extends React.Component{
             selectedMinute: props.selectedMinute,
         }
     }
-    componentDidMount() {
-
-    }
     selectHour = (hourValue) =>{
-
+        this.props.onSelect({name: 'hour', value: hourValue})
     }
     selectMinutes = (minutesValue) => {
-
+        this.props.onSelect({name: 'minute', value: minutesValue})
     }
+
     render(){
         const {active, selectedMinute, selectedHour} = this.state;
-        console.log("%c TIMEPICKER render TimeLists", coCSS, TimeLists)
         return  active ?
             <div className = 'choose_time' >
                 <HoursListView  list =          { TimeLists.hoursList }
@@ -42,21 +39,6 @@ class TimePicker extends React.Component{
             null
     }
 }
-// function TimePicker(props) {
-//     const {active, selectedMinute, selectedHour, idParrentContainer} = props;
-//     return  active ?
-//             <div className = 'choose_time' style = {{maxHeight: rect.height()}}>
-//                 <HoursListView  list =          { TimeLists.hoursList }
-//                                 onSelect =      { this.selectHour }
-//                                 selectedValue = { selectedHour } />
-//                 <MinutesListView    list =          {TimeLists.minutesList}
-//                                     onSelect =      {this.selectMinutes}
-//                                     selectedValue = {selectedMinute} />
-//             </div> :
-//             null
-// }
-
-TimePicker.prototype.TPStyles = TPStyles;
 export default TimePicker;
 
 
@@ -99,6 +81,7 @@ class  GenerateTimeLists{
         }
     }
 }
+
 const TimeLists = new GenerateTimeLists();
 
 
@@ -124,23 +107,8 @@ class RectInfo{
 }
 
 const TPStyles = {
-    // Rect:  new RectInfo(idParrentContainer),
-    // wrapper: function(active) {
-    //     return active ? active: inactive
-    // },
-    // inactive: {
-    //     visibility: 'hidden',
-    //     opacity: '0',
-    //     maxHeight: '0px'
-    // },
-    // active: {
-    //     maxHeight: this.timePickerHeight + 'px',
-    //     visibility: 'visible',
-    //     opacity: '1'
-    // },
-
     forSelectedEl: function(selectedValue, elValue) {
-        return selectedValue == elValue ? { backgroundColor: "#4179f8" } : { backgroundColor: "#4179f8" }
+        return Number(selectedValue) == Number(elValue) ? { backgroundColor: "#4179f8" } : null
     }
 }
 
@@ -158,7 +126,7 @@ function HHList(props) {
                                 data-value =    {key}
                                 data-name =     'chooshour'
                                 style =         { TPStyles.forSelectedEl(selectedValue, key)  }
-                                onClick =       {()=>onSelect(key)}>
+                                onClick =       {()=>onSelectHour(key)}>
                                 {TimeLists.toDD(key)}
                             </li> )
 }
@@ -172,21 +140,14 @@ function MinutesListView(props) {
 
 function MMListView(props) {
     const {list, onSelectMinute, selectedValue} = props;
-    return list.map(key =>  <li className =     'mm'
-                                key =           {'minute-'+key}
-                                data-value =    {key}
-                                data-name =     'minute'
-                                style =         { TPStyles.forSelectedEl(selectedValue, key)  }
-                                onClick =       { ()=>onSelect(key) }>
-                                {TimeLists.toDD(key)}
-                            </li> )
+    return list.map((key, index) => <li className =     'mm'
+                                        key =           {index}
+                                        data-value =    {key}
+                                        data-name =     'minute'
+                                        style =         { TPStyles.forSelectedEl(selectedValue, key)  }
+                                        onClick =       { ()=>onSelectMinute(key) }>
+                                        {TimeLists.toDD(key)}
+                                    </li> )
 }
 
-
-
-
-
-
-// const Day = (Base) => class Day extends Base {
-// }
 
