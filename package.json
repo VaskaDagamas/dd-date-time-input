@@ -1,13 +1,11 @@
 {
     "name": "dd-date-time-input",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "will write later",
-
     "scripts": {
         "dev": "webpack --mode development --config webpack.config.js",
         "build": "webpack --mode production --config webpack.config.js"
     },
-
     "repository": {
         "type": "git",
         "url": "git+https://github.com/VaskaDagamas/dd-date-time-input.git"
