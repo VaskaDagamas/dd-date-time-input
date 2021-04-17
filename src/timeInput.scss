@@ -1,6 +1,84 @@
 @import 'mixin.scss';
 @import 'calendar.scss';
 
+
+
+@mixin defSettings{
+	    * {
+	    	box-sizing: border-box;
+	    	margin: 0px;
+	    	padding: 0px;
+	    	outline: none;
+	    	border: none;
+	    	font-family: "Roboto", Arial, sans-serif;
+	    	font-weight: 400;
+
+	    }
+
+	    *:disabled {
+	    		opacity: 0.3;
+	    		cursor: not-allowed;
+	    		pointer-events: none;
+	    }
+	    button {
+	    	font-size: 14px;
+	    	cursor: pointer;
+	    	font-family: "Roboto", Arial, sans-serif;
+	    	font-weight: 400;
+	    	transition: color 0.4s ease, border-color 0.4s ease, background 0.4s ease;
+	    }
+
+	    button::-moz-focus-inner {
+	    	border: 0;
+	    }
+	    input {
+	    	font-family: "Roboto", Arial, sans-serif;
+	    	font-weight: 400;
+	    	font-size: 14px;
+	    	transition: border-color 0.4s ease-in, background 0.4s ease-in, color 0.4s ease-in;
+	    }
+
+	    input[type="text"]:disabled {
+	    	border-color: #d7d9dc;
+
+	    	@include placeholder {
+	    		color: #9aa0a7;
+	    	}
+	    }
+
+	    b {
+	    	font-family: "Roboto", Arial, sans-serif;
+	    	font-weight: 700;
+	    }
+	    .no_style_btn {
+			background: none;
+			border: none;
+			color: #0e0e0e;
+
+			@include btn_text_style;
+		}
+		.input {
+			background-color: rgb(255, 255, 255);
+			border: solid 1px rgb(215, 217, 220);
+			border-radius: 4px;
+			font-size: 13px;
+			padding-left: 12px;
+			@include transitionall;
+
+			@include placeholder {
+				color: rgb(154, 160, 167);
+			}
+
+			&:focus {
+				background-color: rgb(255, 255, 255);
+				border: solid 1px rgb(65, 121, 248);
+				// 		@include placeholder {
+				// 	color: rgb(14, 14, 14);
+				// }
+			}
+		}
+}
+
 @mixin date_placeholder {
 		font-size: 9px;
 		font-weight: 100;
@@ -15,6 +93,7 @@
 	display: flex;
 		-webkit-align-items: center;
 		        align-items: center;
+	@include defSettings;
 	.time_input_tooltip{
 		position: absolute;
 		top: 44px;
@@ -114,6 +193,7 @@
     width: 500px;
     background: #FFF;
     height: 300px;
+    @include defSettings;
     .close_picker_btn{
     	position: absolute;
     	right: -15px;
@@ -179,7 +259,7 @@
 		}
 		.choose_time_name{
 			background: #FFF;
-			font-family: 'Roboto', sans-serif;
+			font-family: "Roboto", Arial, sans-serif;
 			font-weight: 500;
 			padding: 5px;
 		}
@@ -198,6 +278,11 @@
 				background-color: rgba(65, 121, 248, 0.7)
 			}
 	}
+}
+
+.ABSFixCent{
+    @include PosAbsCent;
+    z-index: 100499;
 }
 
 @media screen and (max-width: 550px) {

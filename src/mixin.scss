@@ -48,7 +48,7 @@ $black: #1d2329;
 
 @mixin btn_text_style {
     font-size: 13px;
-    font-family: $Roboto;
+    font-family: "Roboto", Arial, sans-serif;
     font-weight: 400;
     letter-spacing: 0.2px;
     text-decoration: none;

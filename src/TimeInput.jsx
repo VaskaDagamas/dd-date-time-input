@@ -3,7 +3,7 @@ import moment                                            from 'moment'
 import NewCalendar                                       from './InfiniteCalendar/NewCalendar.jsx'
 import { calendarIcon, closeIcon }                       from "./jsxImages.js"
 import ClickOutside                                      from 'react-click-outside'
-import InputInstructions, { SplitClasses, arrayClasses } from "./temp.js"
+import InputInstructions, { SplitClasses, arrayClasses } from "./instructons.js"
 import TimePicker                                        from "./TimePicker.jsx"
 import ReactDOM                                          from "react-dom";
 
