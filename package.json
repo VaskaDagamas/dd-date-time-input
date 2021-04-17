@@ -2,11 +2,12 @@
     "name": "dd-date-time-input",
     "version": "1.0.0",
     "description": "will write later",
-    "main": "index.js",
+
     "scripts": {
         "dev": "webpack --mode development --config webpack.config.js",
         "build": "webpack --mode production --config webpack.config.js"
     },
+
     "repository": {
         "type": "git",
         "url": "git+https://github.com/VaskaDagamas/dd-date-time-input.git"
@@ -61,5 +62,6 @@
         "webpack-dashboard": "3.3.1",
         "webpack-entrypoints-plugin": "1.1.1",
         "webpack-merge": "5.7.3"
-    }
+    },
+    "main": "dist/main.js"
 }
