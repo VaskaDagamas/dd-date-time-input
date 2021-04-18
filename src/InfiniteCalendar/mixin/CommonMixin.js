@@ -25,7 +25,7 @@ export default {
   getDefaultProps() {
     let locale = localStorage.getItem('lang');
     return {
-      locale: list[locale],
+      locale: list[locale] ? list[locale] : list.ru,
       style: {},
       visible: true,
       prefixCls: 'calendar',
@@ -60,8 +60,8 @@ export default {
   },
 
   focus() {
-    if (this.refs.root) {
-      this.refs.root.focus();
+    if (this.refRoot) {
+      this.refRoot.focus();
     }
   },
 };

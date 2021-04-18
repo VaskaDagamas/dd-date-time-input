@@ -9,7 +9,7 @@ import ReactDOM                                          from "react-dom";
 
 import './timeInput.scss'
 
-
+alert('XOI')
 const TimeInput = (Base) => class TimeInput extends Base{
 	constructor(props){
 		super(props);
@@ -47,7 +47,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 		this.selectedElement = null;
 		// this.removeListenner()
 	}
-	setNewDate = (newValue) => {
+	setNewDate = (newValue) => {//
 		this.messageWasShowed = false;
 		this.tempDate = newValue;
 		this.validateDate();
@@ -147,7 +147,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 									onChange =    {(e)=>this.setDay(e.target.value)}
 									value =       {this.getDay}
 									onFocus =     {this.selectElement}
-									ref =         {this.registerElement}
+									ref =         {(el)=>this.registerElement(el)}
 									onBlur =      {this.onBlurDay}
 
 									placeholder = 'дд'
@@ -159,7 +159,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 									value =       {this.getMonth}
 									onBlur =      {this.onBlurMonth}
 									onFocus =     {this.selectElement}
-									ref =         {this.registerElement}
+									ref =         {(el)=>this.registerElement(el)}
 
 									placeholder = 'мм'
 									name =        'Month' />
@@ -170,7 +170,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 									value =       {this.getYear}
 									onBlur =      {this.onBlurYear}
 									onFocus =     {this.selectElement}
-									ref =         {this.registerElement}
+									ref =         {(el)=>this.registerElement(el)}
 
 									placeholder = 'гггг'
 									name =        'Year' />
@@ -180,7 +180,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 									value =       {this.getHours}
 									onBlur =      {this.onBlurMinutes}
 									onFocus =     {this.selectElement}
-									ref =         {this.registerElement}
+									ref =         {(el)=>this.registerElement(el)}
 
 									placeholder = 'чч'
 									name =        'Hour' />
@@ -191,7 +191,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 									value =       {this.getMinutes}
 									onBlur =      {this.onBlurMinutes}
 									onFocus =     {this.selectElement}
-									ref =         {this.registerElement}
+									ref =         {(el)=>this.registerElement(el)}
 
 									placeholder = 'мм'
 									name =        'Minute' />
@@ -205,7 +205,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 											value =       {this.getSeconds}
 											onBlur =      {this.onBlurSeconds}
 											onFocus =     {this.selectElement}
-											ref =         {this.registerElement}
+											ref =         {(el)=>this.registerElement(el)}
 
 											placeholder = 'сс'
 											name =        'Second' />
@@ -269,10 +269,7 @@ function DateTimePicker(props){//add here value for calendar
 				</ClickOutside>,
 				document.body
 			):
-			<div 	id = {idContainer}
-					className = 'date_time_picker_wrapper'
-					style = {{visibility: 'hidden'}}>
-			</div>
+			null
 }
 
 function setPicketInToView(timePickerId) {

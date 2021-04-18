@@ -219,19 +219,6 @@ const Calendar = createReactClass({
   hideCalendar(){
     this.setState({displaycalendar: false});
   },
-  checkPosition(){
-    if(this.state.displaycalendar == 'block'){
-        window.temp = this.containerCalendar;
-        let bottom = window.outerHeight - this.containerCalendar.getBoundingClientRect().bottom;
-        let right = window.outerWidth - this.containerCalendar.getBoundingClientRect().right;
-        if(bottom < 0){
-            this.containerCalendar.style.bottom = 0;
-        }
-        if(right < 0){
-             this.containerCalendar.style.right = 0;
-        }
-    }
-  },
   render() {
     const props = this.props;
     const {
@@ -283,7 +270,6 @@ const Calendar = createReactClass({
             {dateInputElement}
             <div    className = {`${prefixCls}-date-panel`}
                     style =     {{display: this.state.displaycalendar}}
-                    ref = {(containerCalendar)=>this.containerCalendar = containerCalendar}>
                 <CalendarHeader     locale={locale}
                                     onValueChange={this.setValue}
                                     value={value}

@@ -263,10 +263,7 @@ $black: #1d2329;
     z-index: 1;
 }
 
-.ABSFixCent{
-    @include PosAbsCent;
-    z-index: 100499;
-}
+
 @mixin transitionall {
     transition: all 0.4s ease;
 }

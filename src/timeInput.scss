@@ -177,10 +177,6 @@
 }
 
 .date_time_picker_wrapper{
-	position: absolute;
-	z-index: 5;
-	left: 0px;
-    top: 37px;
     display: flex;
     -webkit-align-items: top;
             align-items: top;
@@ -281,7 +277,7 @@
 }
 
 .ABSFixCent{
-    @include PosAbsCent;
+    @include PosFixCent;
     z-index: 100499;
 }
 

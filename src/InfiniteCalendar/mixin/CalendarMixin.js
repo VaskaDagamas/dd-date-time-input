@@ -79,7 +79,7 @@ const CalendarMixin = {
 
     return (
       <div
-        ref="root"
+        ref={(el)=>this.refRoot = el}
         className={`${classnames(className)}`}
         style={this.props.style}
         tabIndex="0"

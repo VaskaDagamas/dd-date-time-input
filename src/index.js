@@ -1,8 +1,10 @@
 // import 'babel-polyfill'
-// import React      from 'react'
+import React      from 'react'
 import TimeInput  from './TimeInput.jsx'
-// import { render } from 'react-dom'
-// import moment     from 'moment'
+import { render } from 'react-dom'
+import moment     from 'moment'
+
+export default TimeInput;
 
 // class Container extends React.Component {
 //     constructor(props){
@@ -28,4 +30,3 @@ import TimeInput  from './TimeInput.jsx'
 //   <Container/>,
 //   document.getElementById('app_mountpoint')
 // )
-export default TimeInput

@@ -61,7 +61,7 @@ const Picker = createReactClass({
       open = props.defaultOpen;
     }
     const value = props.value || props.defaultValue;
-    this.saveCalendarRef = refFn.bind(this, 'calendarInstance');
+    // this.saveCalendarRef = refFn.bind(this, 'calendarInstance');
     return {
       open,
       value,
@@ -143,7 +143,7 @@ const Picker = createReactClass({
       defaultValue = value;
     }
     const extraProps = {
-      ref: this.saveCalendarRef,
+      // ref: this.saveCalendarRef,
       defaultValue: defaultValue || calendarProps.defaultValue,
       selectedValue: value,
       onKeyDown: this.onCalendarKeyDown,

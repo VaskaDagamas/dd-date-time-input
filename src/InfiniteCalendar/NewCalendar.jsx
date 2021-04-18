@@ -9,9 +9,8 @@ import CommonMixin from './mixin/CommonMixin.js';
 import DateInput from './date/DateInput.js';
 import { getTimeConfig, getTodayTime } from './util/index';
 import PropTypes from 'prop-types';
-import ClickOutside from 'react-click-outside'
-import "../calendar.scss"
 import createReactClass from 'create-react-class'
+import "../calendar.scss"
 
 function noop() {}
 
@@ -153,9 +152,9 @@ const NewCalendar = createReactClass({
 	},
 	onOk() {
 		const { selectedValue } = this.state;
-		if(this.isAllowedDate(selectedValue)) {
-			this.props.onOk(selectedValue);
-		}
+		// if(this.isAllowedDate(selectedValue)) {
+		// 	this.props.onOk(selectedValue);
+		// }
 	},
 	onDateInputChange(value) {
 		this.onSelect(value, {
@@ -198,20 +197,7 @@ const NewCalendar = createReactClass({
 		(!event) ? (value = 'none') : (value = 'block');
 		this.setState({
 			displaycalendar: value
-		}, this.checkPosition)
-	},
-	checkPosition() {
-		if(this.state.displaycalendar == 'block') {
-			window.temp = this.containerCalendar;
-			let bottom = window.outerHeight - this.containerCalendar.getBoundingClientRect().bottom;
-			let right = window.outerWidth - this.containerCalendar.getBoundingClientRect().right;
-			if(bottom < 0) {
-				this.containerCalendar.style.bottom = 0;
-			}
-			if(right < 0) {
-				this.containerCalendar.style.right = 0;
-			}
-		}
+		})
 	},
 	render() {
 		const props = this.props;
@@ -233,8 +219,7 @@ const NewCalendar = createReactClass({
 		const children = [
 			props.renderSidebar(),
 			<div className = {`${prefixCls}-panel`} key="panel">
-		            <div    className = {`${prefixCls}-date-panel`}
-		                    ref = {(containerCalendar)=>this.containerCalendar = containerCalendar}>
+		            <div    className = {`${prefixCls}-date-panel`}>
 		                <CalendarHeader     locale={locale}
 		                                    onValueChange={this.setValue}
 		                                    value={value}
@@ -264,7 +249,6 @@ const NewCalendar = createReactClass({
 		                                    selectedValue={selectedValue}
 		                                    value={value}
 		                                    disabledDate={disabledDate}
-		                                    okDisabled={!this.isAllowedDate(selectedValue)}
 		                                    onOk={this.onOk}
 		                                    onSelect={this.onSelect}
 		                                    onToday={this.onToday}
@@ -282,4 +266,6 @@ const NewCalendar = createReactClass({
 		)
 	},
 });
+
+
 export default NewCalendar;
