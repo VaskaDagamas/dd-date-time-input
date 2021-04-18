@@ -9,7 +9,6 @@ import ReactDOM                                          from "react-dom";
 
 import './timeInput.scss'
 
-alert('XOI')
 const TimeInput = (Base) => class TimeInput extends Base{
 	constructor(props){
 		super(props);
