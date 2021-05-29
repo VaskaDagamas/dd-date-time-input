@@ -1,0 +1,2789 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cle",
+				"clearEdit"
+			],
+			[
+				"geofen",
+				"geofence"
+			],
+			[
+				"dra",
+				"drawAllGeophence"
+			],
+			[
+				"value",
+				"valueToIput"
+			],
+			[
+				"north",
+				"NorthMarker"
+			],
+			[
+				"ce",
+				"centerGeo"
+			],
+			[
+				"veh",
+				"vehicleId"
+			],
+			[
+				"re",
+				"realSensorValues"
+			],
+			[
+				"ev",
+				"eventName"
+			],
+			[
+				"in",
+				"indexOfEvents"
+			],
+			[
+				"index",
+				"indexOfVehicle"
+			],
+			[
+				"fun",
+				"fun\tfunction"
+			],
+			[
+				"const",
+				"constructor"
+			],
+			[
+				"prev",
+				"prevLat"
+			],
+			[
+				"ve",
+				"vehiclesDataGpsDataDto"
+			],
+			[
+				"vehicle",
+				"vehicle_state"
+			],
+			[
+				"ini",
+				"initMarker"
+			],
+			[
+				"vehi",
+				"vehicleId"
+			],
+			[
+				"ma",
+				"markersList"
+			],
+			[
+				"state",
+				"stateInStore"
+			],
+			[
+				"store",
+				"storeState"
+			],
+			[
+				"vehic",
+				"vehicleMarker"
+			],
+			[
+				"vehicleC",
+				"VehicleContext"
+			],
+			[
+				"set",
+				"setState"
+			],
+			[
+				"new",
+				"newData"
+			],
+			[
+				"Con",
+				"ControlContext"
+			],
+			[
+				"cw",
+				"cwm\tReact: componentWillMount() {…}"
+			],
+			[
+				"mar",
+				"marker"
+			],
+			[
+				"cons",
+				"cons\tconsole"
+			],
+			[
+				"vehicl",
+				"vehicleList"
+			],
+			[
+				"C",
+				"ControlInfoContext"
+			],
+			[
+				"ne",
+				"newData"
+			],
+			[
+				"mark",
+				"markersList"
+			],
+			[
+				"cu",
+				"currentEvent"
+			],
+			[
+				"spee",
+				"speedInfo"
+			],
+			[
+				"en",
+				"endDate"
+			],
+			[
+				"Ca",
+				"CalcuationInfoAboutPeriod"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"dom",
+				"domainKey"
+			],
+			[
+				"Nav",
+				"NavContext"
+			],
+			[
+				"if",
+				"ifNoKey"
+			],
+			[
+				"dis",
+				"disableSOS"
+			],
+			[
+				"notifi",
+				"notification"
+			],
+			[
+				"ss",
+				"sst\tReact: this.setState(…)"
+			],
+			[
+				"cl",
+				"cl\tclassReact"
+			],
+			[
+				"s",
+				"state\tReact: this.state"
+			],
+			[
+				"f-si",
+				"font-size"
+			],
+			[
+				"ar",
+				"arfunc\tarrowFunction"
+			],
+			[
+				"го",
+				"годину"
+			],
+			[
+				"lang",
+				"language_variant"
+			],
+			[
+				"fuel_con",
+				"fuel_consumption"
+			],
+			[
+				"M",
+				"MessageAboutError"
+			],
+			[
+				"c",
+				"cwr\tReact: componentWillReceiveProps(np) {…}"
+			],
+			[
+				"rc",
+				"rcc\tReact: class component"
+			],
+			[
+				"fit",
+				"fitBounds"
+			],
+			[
+				"poin",
+				"pointLength"
+			],
+			[
+				"pr",
+				"props\tReact: this.props"
+			],
+			[
+				"disable",
+				"disableTrigger"
+			],
+			[
+				"mouse",
+				"mousemove"
+			],
+			[
+				"whi",
+				"width"
+			],
+			[
+				"calcVa",
+				"calcValues"
+			],
+			[
+				"can",
+				"canvas"
+			],
+			[
+				"name",
+				"nameOfArray"
+			],
+			[
+				"add",
+				"addListener"
+			],
+			[
+				"get",
+				"getIcon"
+			],
+			[
+				"on",
+				"oneTrackPointData"
+			],
+			[
+				"sel",
+				"selectedIndex"
+			],
+			[
+				"time",
+				"timeDateEl"
+			],
+			[
+				"lo",
+				"lookingTime"
+			],
+			[
+				"se",
+				"selectedDate"
+			],
+			[
+				"is",
+				"isFinite"
+			],
+			[
+				"info",
+				"infoStore"
+			],
+			[
+				"mae",
+				"markerInfo"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"vehice",
+				"vehicleMarker"
+			],
+			[
+				"touch",
+				"touchStart"
+			],
+			[
+				"зв",
+				"звiт"
+			],
+			[
+				"gro",
+				"groupList"
+			],
+			[
+				"up",
+				"updateViewArrowCompletedWay"
+			],
+			[
+				"inde",
+				"indexOfGroupForRemove"
+			],
+			[
+				"gr",
+				"groupId"
+			],
+			[
+				"grou",
+				"groupName"
+			],
+			[
+				"tr",
+				"transportList"
+			],
+			[
+				"a",
+				"addThis"
+			],
+			[
+				"help",
+				"helpContol"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"tum",
+				"tumbler_calculation"
+			],
+			[
+				"fue",
+				"fuelConsumptionText"
+			],
+			[
+				"no",
+				"no_data"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"events",
+				"eventsList"
+			],
+			[
+				"fuel",
+				"fuelEvents"
+			],
+			[
+				"consumed",
+				"consumedOnPeriod"
+			],
+			[
+				"date",
+				"dateForFind"
+			],
+			[
+				"fueled",
+				"fuelledByPeriod"
+			],
+			[
+				"pure",
+				"pureY"
+			],
+			[
+				"eve",
+				"event"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"val",
+				"valueOnStartFuelling"
+			],
+			[
+				"data",
+				"dataByPeriod"
+			],
+			[
+				"end",
+				"endIsBetween"
+			],
+			[
+				"start",
+				"startDatePeriod"
+			],
+			[
+				"sta",
+				"startMove"
+			],
+			[
+				"flow",
+				"flowMeterSensorNames"
+			],
+			[
+				"FLOW",
+				"FLOW_METER_SENSOR_NAMES"
+			],
+			[
+				"list",
+				"listKeyForRemove"
+			],
+			[
+				"ch",
+				"checkBoxValue"
+			],
+			[
+				"FLO",
+				"FLOW_METER_SENSOR_NAMES"
+			],
+			[
+				"Flo",
+				"FLOW_METER_SENSOR_NAMES"
+			],
+			[
+				"ol",
+				"oldListKeys"
+			],
+			[
+				"o",
+				"oneVehicle"
+			],
+			[
+				"rel",
+				"realSensorSockets"
+			],
+			[
+				"real",
+				"realSensors"
+			],
+			[
+				"nam",
+				"namesList"
+			],
+			[
+				"FL",
+				"FLOW_METER_SENSOR_NAMES"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"li",
+				"listNames"
+			],
+			[
+				"vir",
+				"virtualSensors"
+			],
+			[
+				"tra",
+				"transport_list"
+			],
+			[
+				"repo",
+				"reportData"
+			],
+			[
+				"ca",
+				"canvas"
+			],
+			[
+				"fa",
+				"fakeTimeStamp"
+			],
+			[
+				"ex",
+				"examplePoint"
+			],
+			[
+				"fake",
+				"fakeTimeStamp"
+			],
+			[
+				"pre",
+				"prev_date"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"nu",
+				"number"
+			],
+			[
+				"fi",
+				"firstList"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/TimeInput.jsx",
+			"settings":
+			{
+				"buffer_size": 9953,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					89,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAHEEAAAAAAAAcgQAAAAAAAAAAAAAcgQAAAAAAAB0BAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAcQQAAAAAAABxBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "thid"
+					},
+					"BAAAAHQEAAAAAAAAdQQAAAAAAAAAAAAAdQQAAAAAAAB2BAAAAAAAAAAAAAB2BAAAAAAAAHcEAAAAAAAAAAAAAHcEAAAAAAAAeAQAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHQEAAAAAAAAdAQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					4,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHcEAAAAAAAAdwQAAAAAAAABAAAAZA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHgEAAAAAAAAeAQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "s.diap"
+					},
+					"BgAAAHcEAAAAAAAAeAQAAAAAAAAAAAAAeAQAAAAAAAB5BAAAAAAAAAAAAAB5BAAAAAAAAHoEAAAAAAAAAAAAAHoEAAAAAAAAewQAAAAAAAAAAAAAewQAAAAAAAB8BAAAAAAAAAAAAAB8BAAAAAAAAH0EAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHcEAAAAAAAAdwQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "layNem"
+					},
+					"BgAAAH0EAAAAAAAAfgQAAAAAAAAAAAAAfgQAAAAAAAB/BAAAAAAAAAAAAAB/BAAAAAAAAIAEAAAAAAAAAAAAAIAEAAAAAAAAgQQAAAAAAAAAAAAAgQQAAAAAAACCBAAAAAAAAAAAAACCBAAAAAAAAIMEAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAH0EAAAAAAAAfQQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					7,
+					2,
+					"left_delete",
+					null,
+					"AgAAAIIEAAAAAAAAggQAAAAAAAABAAAAbYEEAAAAAAAAgQQAAAAAAAABAAAAZQ",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIMEAAAAAAAAgwQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "an"
+					},
+					"AgAAAIEEAAAAAAAAggQAAAAAAAAAAAAAggQAAAAAAACDBAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIEEAAAAAAAAgQQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					9,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIIEAAAAAAAAggQAAAAAAAABAAAAbg",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIMEAAAAAAAAgwQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "me"
+					},
+					"AgAAAIIEAAAAAAAAgwQAAAAAAAAAAAAAgwQAAAAAAACEBAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIIEAAAAAAAAggQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": " ="
+					},
+					"AgAAAIQEAAAAAAAAhQQAAAAAAAAAAAAAhQQAAAAAAACGBAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIQEAAAAAAAAhAQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": " tim"
+					},
+					"BAAAAIYEAAAAAAAAhwQAAAAAAAAAAAAAhwQAAAAAAACIBAAAAAAAAAAAAACIBAAAAAAAAIkEAAAAAAAAAAAAAIkEAAAAAAAAigQAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIYEAAAAAAAAhgQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					13,
+					3,
+					"left_delete",
+					null,
+					"AwAAAIkEAAAAAAAAiQQAAAAAAAABAAAAbYgEAAAAAAAAiAQAAAAAAAABAAAAaYcEAAAAAAAAhwQAAAAAAAABAAAAdA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIoEAAAAAAAAigQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					14,
+					1,
+					"insert_snippet",
+					{
+						"contents": "'$0'"
+					},
+					"AQAAAIcEAAAAAAAAiQQAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIcEAAAAAAAAhwQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "Tim"
+					},
+					"AwAAAIgEAAAAAAAAiQQAAAAAAAAAAAAAiQQAAAAAAACKBAAAAAAAAAAAAACKBAAAAAAAAIsEAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIgEAAAAAAAAiAQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					23,
+					1,
+					"paste",
+					null,
+					"AgAAAIgEAAAAAAAAkQQAAAAAAAAAAAAAkQQAAAAAAACRBAAAAAAAAAMAAABUaW0",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIgEAAAAAAAAiwQAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAJIEAAAAAAAAkwQAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJIEAAAAAAAAkgQAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		},
+		{
+			"file": "src/instructons.js",
+			"settings":
+			{
+				"buffer_size": 15705,
+				"encoding": "UTF-8",
+				"line_ending": "CR"
+			},
+			"undo_stack":
+			[
+				[
+					221,
+					1,
+					"right_delete",
+					null,
+					"AQAAAJ0FAAAAAAAAnQUAAAAAAAABAAAACg",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJ0FAAAAAAAAnQUAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					251,
+					1,
+					"insert",
+					{
+						"characters": "\ncons"
+					},
+					"BgAAAJINAAAAAAAAkw0AAAAAAAAAAAAAkw0AAAAAAACVDQAAAAAAAAAAAACVDQAAAAAAAJYNAAAAAAAAAAAAAJYNAAAAAAAAlw0AAAAAAAAAAAAAlw0AAAAAAACYDQAAAAAAAAAAAACYDQAAAAAAAJkNAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJINAAAAAAAAkg0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					252,
+					1,
+					"insert_completion",
+					{
+						"completion": "console.log(\"%c ${1:}\", coCSS, ${1:})",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "cons"
+					},
+					"AgAAAJUNAAAAAAAAlQ0AAAAAAAAEAAAAY29uc5UNAAAAAAAAsA0AAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJkNAAAAAAAAmQ0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					253,
+					1,
+					"insert",
+					{
+						"characters": "get"
+					},
+					"BgAAAK8NAAAAAAAAsA0AAAAAAAAAAAAApQ0AAAAAAACmDQAAAAAAAAAAAACxDQAAAAAAALINAAAAAAAAAAAAAKYNAAAAAAAApw0AAAAAAAAAAAAAsw0AAAAAAAC0DQAAAAAAAAAAAACnDQAAAAAAAKgNAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAgAAAKUNAAAAAAAApQ0AAAAAAAAAAAAAAADwv68NAAAAAAAArw0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					270,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAKgNAAAAAAAAqQ0AAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKgNAAAAAAAAqA0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					275,
+					1,
+					"paste",
+					null,
+					"AgAAAKUNAAAAAAAArQ0AAAAAAAAAAAAArQ0AAAAAAACtDQAAAAAAAAMAAABnZXQ",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKUNAAAAAAAAqA0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					282,
+					1,
+					"upper_case",
+					null,
+					"AQAAAKUNAAAAAAAArQ0AAAAAAAAIAAAAZ2V0TW9udGg",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKUNAAAAAAAArQ0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					296,
+					1,
+					"paste",
+					null,
+					"AgAAALgNAAAAAAAAxQ0AAAAAAAAAAAAAxQ0AAAAAAADFDQAAAAAAAAMAAABnZXQ",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALgNAAAAAAAAuw0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					297,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAMUNAAAAAAAAxg0AAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMUNAAAAAAAAxQ0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					298,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAMYNAAAAAAAAxw0AAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMYNAAAAAAAAxg0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					40,
+					1,
+					"paste",
+					null,
+					"AQAAAMcNAAAAAAAA0w0AAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAxw0AAAAAAADHDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					240,
+					1,
+					"paste",
+					null,
+					"AQAAADENAAAAAAAATw0AAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAMQ0AAAAAAAAxDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					241,
+					1,
+					"insert",
+					{
+						"characters": " ?"
+					},
+					"AgAAAE8NAAAAAAAAUA0AAAAAAAAAAAAAUA0AAAAAAABRDQAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAATw0AAAAAAABPDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					242,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAFENAAAAAAAAUg0AAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAUQ0AAAAAAABRDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					247,
+					1,
+					"insert",
+					{
+						"characters": " ;"
+					},
+					"AgAAAHoNAAAAAAAAew0AAAAAAAAAAAAAew0AAAAAAAB8DQAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAeg0AAAAAAAB6DQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					248,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHsNAAAAAAAAew0AAAAAAAABAAAAOw",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAfA0AAAAAAAB8DQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					249,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAHsNAAAAAAAAfA0AAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAew0AAAAAAAB7DQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					250,
+					1,
+					"insert",
+					{
+						"characters": " ''"
+					},
+					"AwAAAHwNAAAAAAAAfQ0AAAAAAAAAAAAAfQ0AAAAAAAB+DQAAAAAAAAAAAAB+DQAAAAAAAH8NAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAfA0AAAAAAAB8DQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAALkNAAAAAAAAuQ0AAAAAAABCAAAACQljb25zb2xlLmxvZygiJWMgR0VUTU9OVEggIiwgY29DU1MsIG1vbnRoRnJvbURhdGUsIG1vbnRoRm9yVmlldykK",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAN8NAAAAAAAA3w0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					36,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"DwAAAIE9AAAAAAAAgT0AAAAAAAADAAAALy8gaD0AAAAAAABoPQAAAAAAAAMAAAAvLyAqPQAAAAAAACo9AAAAAAAAAwAAAC8vIOw8AAAAAAAA7DwAAAAAAAADAAAALy8gsjwAAAAAAACyPAAAAAAAAAMAAAAvLyB4PAAAAAAAAHg8AAAAAAAAAwAAAC8vIDw8AAAAAAAAPDwAAAAAAAADAAAALy8gBDwAAAAAAAAEPAAAAAAAAAMAAAAvLyDZOwAAAAAAANk7AAAAAAAAAwAAAC8vIK47AAAAAAAArjsAAAAAAAADAAAALy8ghzsAAAAAAACHOwAAAAAAAAMAAAAvLyBgOwAAAAAAAGA7AAAAAAAAAwAAAC8vIDc7AAAAAAAANzsAAAAAAAADAAAALy8gETsAAAAAAAAROwAAAAAAAAMAAAAvLyD1OgAAAAAAAPU6AAAAAAAAAwAAAC8vIA",
+					"AQAAAAAAAAABAAAAhT0AAAAAAAD0OgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"cut",
+					null,
+					"AQAAAPQ6AAAAAAAA9DoAAAAAAABkAgAACXVwZGF0ZUlucHV0cyhuZXdEYXRlKSB7CgkJY29uc3QgZGF5ID0gbmV3RGF0ZS5nZXQoJ2RhdGUnKTsKCQljb25zdCBtb250aCA9IG5ld0RhdGUuZ2V0KCdtb250aCcpOwoJCWNvbnN0IHllYXIgPSBuZXdEYXRlLmdldCgneWVhcicpOwoJCWNvbnN0IGhvdXIgPSBuZXdEYXRlLmdldCgnaG91cicpOwoJCWNvbnN0IG1pbnV0ZSA9IG5ld0RhdGUuZ2V0KCdtaW51dGUnKTsKCQljb25zdCBzZWNvbmQgPSBuZXdEYXRlLmdldCgnc2Vjb25kJyk7CgkJdGhpcy5fZW50ZXJlZF9kYXlfID0gdGhpcy5kb05pY2VWYWx1ZShTdHJpbmcoZGF5KSkKCQl0aGlzLl9lbnRlcmVkX21vbnRoXyA9IHRoaXMuZG9OaWNlVmFsdWUoU3RyaW5nKG1vbnRoKSkKCQl0aGlzLl9lbnRlcmVkX3llYXJfID0gdGhpcy5kb05pY2VWYWx1ZShTdHJpbmcoeWVhcikpCgkJdGhpcy5fZW50ZXJlZF9ob3VyXyA9IHRoaXMuZG9OaWNlVmFsdWUoU3RyaW5nKGhvdXIpKQoJCXRoaXMuX2VudGVyZWRfbWludXRlXyA9IHRoaXMuZG9OaWNlVmFsdWUoU3RyaW5nKG1pbnV0ZSkpCgkJdGhpcy5fZW50ZXJlZF9zZWNvbmRfID0gdGhpcy5kb05pY2VWYWx1ZShTdHJpbmcoc2Vjb25kKSkKCQl0aGlzLmZvcmNlVXBkYXRlKCk7Cgl9",
+					"AQAAAAAAAAABAAAAWD0AAAAAAAD0OgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAKgsAAAAAAAAqSwAAAAAAAAAAAAAqSwAAAAAAACqLAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqCwAAAAAAACoLAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"paste_and_indent",
+					null,
+					"AQAAAKosAAAAAAAADS8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqiwAAAAAAACqLAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 1029,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					9,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"AQAAAKcAAAAAAAAAqgAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"FgAAANoDAAAAAAAA2gMAAAAAAAADAAAALy8gxwMAAAAAAADHAwAAAAAAAAMAAAAvLyC8AwAAAAAAALwDAAAAAAAAAwAAAC8vILcDAAAAAAAAtwMAAAAAAAADAAAALy8grQMAAAAAAACtAwAAAAAAAAMAAAAvLyBvAwAAAAAAAG8DAAAAAAAAAwAAAC8vIDcDAAAAAAAANwMAAAAAAAADAAAALy8g7AIAAAAAAADsAgAAAAAAAAMAAAAvLyCfAgAAAAAAAJ8CAAAAAAAAAwAAAC8vIEICAAAAAAAAQgIAAAAAAAADAAAALy8gBgIAAAAAAAAGAgAAAAAAAAMAAAAvLyDWAQAAAAAAANYBAAAAAAAAAwAAAC8vIMUBAAAAAAAAxQEAAAAAAAADAAAALy8gvAEAAAAAAAC8AQAAAAAAAAMAAAAvLyCRAQAAAAAAAJEBAAAAAAAAAwAAAC8vIIQBAAAAAAAAhAEAAAAAAAADAAAALy8gZQEAAAAAAABlAQAAAAAAAAMAAAAvLyBAAQAAAAAAAEABAAAAAAAAAwAAAC8vICYBAAAAAAAAJgEAAAAAAAADAAAALy8gDQEAAAAAAAANAQAAAAAAAAMAAAAvLyDyAAAAAAAAAPIAAAAAAAAAAwAAAC8vIMUAAAAAAAAAxQAAAAAAAAADAAAALy8g",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAACAQAAAAAAADFAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"AQAAAKcAAAAAAAAApwAAAAAAAAADAAAALy8g",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAwwAAAAAAAADDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"AQAAAMQDAAAAAAAAxAMAAAAAAAADAAAALy8g",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAyAMAAAAAAADIAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					64,
+					1,
+					"insert",
+					{
+						"characters": "null"
+					},
+					"BQAAAEcBAAAAAAAASAEAAAAAAAAAAAAASAEAAAAAAABIAQAAAAAAAAoAAABuZXcgRGF0ZSgpSAEAAAAAAABJAQAAAAAAAAAAAABJAQAAAAAAAEoBAAAAAAAAAAAAAEoBAAAAAAAASwEAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAARwEAAAAAAABRAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					116,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"FwAAAL4DAAAAAAAAwQMAAAAAAAAAAAAAkgMAAAAAAACVAwAAAAAAAAAAAACCAwAAAAAAAIUDAAAAAAAAAAAAAHoDAAAAAAAAfQMAAAAAAAAAAAAAeAMAAAAAAAB7AwAAAAAAAAAAAABxAwAAAAAAAHQDAAAAAAAAAAAAADYDAAAAAAAAOQMAAAAAAAAAAAAAAQMAAAAAAAAEAwAAAAAAAAAAAAC5AgAAAAAAALwCAAAAAAAAAAAAAG8CAAAAAAAAcgIAAAAAAAAAAAAAFQIAAAAAAAAYAgAAAAAAAAAAAADcAQAAAAAAAN8BAAAAAAAAAAAAAK8BAAAAAAAAsgEAAAAAAAAAAAAAoQEAAAAAAACkAQAAAAAAAAAAAACbAQAAAAAAAJ4BAAAAAAAAAAAAAHMBAAAAAAAAdgEAAAAAAAAAAAAAaQEAAAAAAABsAQAAAAAAAAAAAABNAQAAAAAAAFABAAAAAAAAAAAAADEBAAAAAAAANAEAAAAAAAAAAAAAGgEAAAAAAAAdAQAAAAAAAAAAAAAEAQAAAAAAAAcBAAAAAAAAAAAAAOwAAAAAAAAA7wAAAAAAAAAAAAAAwgAAAAAAAADFAAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAwAMAAAAAAADCAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"contents": "# dd-date-time-input\n Will write later\n\n\n#example \n                    <TimeInput  placeholder =   '25.08.1988 9:45'\n                                class =         'input'\n                                name =          'startTime'\n                                value =         {this.state.startTime}\n                                maxDate =       {this.state.endTime}\n                                onChange =      {this.enterToState}\n                                textLabel =     {language_variant.start_of_period}/>\n#prop secondsVisibility show/hide seconds input",
+			"file": "README.md",
+			"file_size": 525,
+			"file_write_time": 132666687249995841,
+			"settings":
+			{
+				"buffer_size": 573,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAA0CAAAAAAAADgIAAAAAAAAAAAAADgIAAAAAAAAuAgAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAA0CAAAAAAAADQIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					7,
+					8,
+					"left_delete",
+					null,
+					"CAAAACoCAAAAAAAAKgIAAAAAAAAEAAAAICAgICYCAAAAAAAAJgIAAAAAAAAEAAAAICAgICICAAAAAAAAIgIAAAAAAAAEAAAAICAgIB4CAAAAAAAAHgIAAAAAAAAEAAAAICAgIBoCAAAAAAAAGgIAAAAAAAAEAAAAICAgIBYCAAAAAAAAFgIAAAAAAAAEAAAAICAgIBICAAAAAAAAEgIAAAAAAAAEAAAAICAgIA4CAAAAAAAADgIAAAAAAAAEAAAAICAgIA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAC4CAAAAAAAALgIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAAA4CAAAAAAAADwIAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAA4CAAAAAAAADgIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "prop"
+					},
+					"BAAAAA8CAAAAAAAAEAIAAAAAAAAAAAAAEAIAAAAAAAARAgAAAAAAAAAAAAARAgAAAAAAABICAAAAAAAAAAAAABICAAAAAAAAEwIAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAA8CAAAAAAAADwIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAABMCAAAAAAAAFAIAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABMCAAAAAAAAEwIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					11,
+					1,
+					"paste",
+					null,
+					"AQAAABQCAAAAAAAAJQIAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABQCAAAAAAAAFAIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": " ="
+					},
+					"AgAAACUCAAAAAAAAJgIAAAAAAAAAAAAAJgIAAAAAAAAnAgAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACUCAAAAAAAAJQIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					13,
+					1,
+					"left_delete",
+					null,
+					"AQAAACYCAAAAAAAAJgIAAAAAAAABAAAAPQ",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACcCAAAAAAAAJwIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "show"
+					},
+					"BAAAACYCAAAAAAAAJwIAAAAAAAAAAAAAJwIAAAAAAAAoAgAAAAAAAAAAAAAoAgAAAAAAACkCAAAAAAAAAAAAACkCAAAAAAAAKgIAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACYCAAAAAAAAJgIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "/hde"
+					},
+					"BAAAACoCAAAAAAAAKwIAAAAAAAAAAAAAKwIAAAAAAAAsAgAAAAAAAAAAAAAsAgAAAAAAAC0CAAAAAAAAAAAAAC0CAAAAAAAALgIAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACoCAAAAAAAAKgIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					16,
+					2,
+					"left_delete",
+					null,
+					"AgAAAC0CAAAAAAAALQIAAAAAAAABAAAAZSwCAAAAAAAALAIAAAAAAAABAAAAZA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAC4CAAAAAAAALgIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "ide"
+					},
+					"AwAAACwCAAAAAAAALQIAAAAAAAAAAAAALQIAAAAAAAAuAgAAAAAAAAAAAAAuAgAAAAAAAC8CAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACwCAAAAAAAALAIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": " val"
+					},
+					"BAAAAC8CAAAAAAAAMAIAAAAAAAAAAAAAMAIAAAAAAAAxAgAAAAAAAAAAAAAxAgAAAAAAADICAAAAAAAAAAAAADICAAAAAAAAMwIAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAC8CAAAAAAAALwIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					19,
+					2,
+					"left_delete",
+					null,
+					"AgAAADICAAAAAAAAMgIAAAAAAAABAAAAbDECAAAAAAAAMQIAAAAAAAABAAAAYQ",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADMCAAAAAAAAMwIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": "se"
+					},
+					"AgAAADECAAAAAAAAMgIAAAAAAAAAAAAAMgIAAAAAAAAzAgAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADECAAAAAAAAMQIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					21,
+					3,
+					"left_delete",
+					null,
+					"AwAAADICAAAAAAAAMgIAAAAAAAABAAAAZTECAAAAAAAAMQIAAAAAAAABAAAAczACAAAAAAAAMAIAAAAAAAABAAAAdg",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADMCAAAAAAAAMwIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "second"
+					},
+					"BgAAADACAAAAAAAAMQIAAAAAAAAAAAAAMQIAAAAAAAAyAgAAAAAAAAAAAAAyAgAAAAAAADMCAAAAAAAAAAAAADMCAAAAAAAANAIAAAAAAAAAAAAANAIAAAAAAAA1AgAAAAAAAAAAAAA1AgAAAAAAADYCAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADACAAAAAAAAMAIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAADYCAAAAAAAANwIAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADYCAAAAAAAANgIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					24,
+					1,
+					"left_delete",
+					null,
+					"AQAAADYCAAAAAAAANgIAAAAAAAABAAAAIA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADcCAAAAAAAANwIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "s"
+					},
+					"AQAAADYCAAAAAAAANwIAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADYCAAAAAAAANgIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": " input"
+					},
+					"BgAAADcCAAAAAAAAOAIAAAAAAAAAAAAAOAIAAAAAAAA5AgAAAAAAAAAAAAA5AgAAAAAAADoCAAAAAAAAAAAAADoCAAAAAAAAOwIAAAAAAAAAAAAAOwIAAAAAAAA8AgAAAAAAAAAAAAA8AgAAAAAAAD0CAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADcCAAAAAAAANwIAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sta",
+				"Git: Status"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"ad",
+				"Git: Add All"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"mer",
+				"Git: Merge Branch"
+			],
+			[
+				"cha",
+				"Git: Change Branch"
+			],
+			[
+				"new",
+				"Git: New Branch"
+			],
+			[
+				"pus",
+				"Git: Push Current Branch"
+			],
+			[
+				"merg",
+				"Git: Merge Branch"
+			],
+			[
+				"pu",
+				"Git: Push Current Branch"
+			],
+			[
+				"co",
+				"Git: Commit"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"COM",
+				"Git: Commit"
+			],
+			[
+				"ADD",
+				"Git: Add All"
+			],
+			[
+				"STA",
+				"Git: Status"
+			],
+			[
+				"qu",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"me",
+				"Git: Merge Branch"
+			],
+			[
+				"chan",
+				"Git: Change Branch"
+			],
+			[
+				"ch",
+				"Git: Change Branch"
+			],
+			[
+				"st",
+				"Git: Status"
+			],
+			[
+				" cha",
+				"Git: Change Branch"
+			],
+			[
+				"q",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"stau",
+				"Git: Status"
+			],
+			[
+				"a",
+				"Git: Add All"
+			],
+			[
+				"addC",
+				"Git: Add Current File"
+			],
+			[
+				"add c",
+				"Git: Add Current File"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"stas",
+				"Git: Stash Changes"
+			],
+			[
+				"qui",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"statu",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"check",
+				"Git: Checkout Tag"
+			],
+			[
+				"c",
+				"Git: Commit"
+			],
+			[
+				"add ",
+				"Git: Add Current File"
+			],
+			[
+				"new ",
+				"Git: New Branch"
+			],
+			[
+				"git pu",
+				"Git: Push Current Branch"
+			],
+			[
+				"git ",
+				"Git: Status"
+			],
+			[
+				"bra",
+				"Git: Change Branch"
+			],
+			[
+				"git pull",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git pul",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git fe",
+				"Git: Fetch"
+			],
+			[
+				"git a",
+				"Git: Amend Commit"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"comi",
+				"Git: Commit"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"add a",
+				"Git: Add All"
+			],
+			[
+				"add al",
+				"Git: Add All"
+			],
+			[
+				"log",
+				"Git: Log Current File"
+			],
+			[
+				"git lo",
+				"Git: Log All"
+			],
+			[
+				"puh",
+				"Git: Push Current Branch"
+			],
+			[
+				"pull",
+				"Git: Pull Using Rebase"
+			],
+			[
+				"fet",
+				"Git: Fetch"
+			],
+			[
+				"stash",
+				"Git: Stash Apply"
+			],
+			[
+				"git fet",
+				"Git: Fetch"
+			],
+			[
+				"merge",
+				"Git: Merge Branch"
+			],
+			[
+				"fe",
+				"Git: Fetch"
+			],
+			[
+				"br",
+				"Git: Merge Branch"
+			],
+			[
+				"pul",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git fetch",
+				"Git: Fetch"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"igno",
+				"Set Syntax: Git Ignore"
+			],
+			[
+				"git stau",
+				"Git: Status"
+			],
+			[
+				"chang",
+				"Git: Change Branch"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add ",
+				"Git: Add All"
+			],
+			[
+				"git ad",
+				"Git: Add All"
+			],
+			[
+				"commit cu",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"git igno",
+				"Git: Diff Current File (Ignore Whitespace)"
+			],
+			[
+				"git  commi",
+				"Git: Commit history"
+			],
+			[
+				" git br",
+				"Git: Track Remote Branch"
+			],
+			[
+				"view",
+				"Sublimerge: View VCS Cache"
+			],
+			[
+				"aa",
+				"Git: Add All"
+			],
+			[
+				"cons",
+				"Snippet: constr"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				" com",
+				"Git: Commit"
+			],
+			[
+				" add",
+				"Git: Add All"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"constr",
+				"Snippet: constr"
+			],
+			[
+				"func",
+				"Snippet: function"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git br",
+				"Git: Change Branch"
+			],
+			[
+				"git ini",
+				"Set Syntax: Git Config"
+			],
+			[
+				"",
+				"Package Control: Enable Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Channel"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"gi",
+				"Git: Add All"
+			],
+			[
+				"git sat",
+				"Git: Status"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git b",
+				"Git: Change Branch"
+			],
+			[
+				"Snippet: ",
+				"Snippet: function"
+			],
+			[
+				"Snippet: fun",
+				"Snippet: function"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"cl.t",
+				"Sublimerge: List and Resolve Conflicts..."
+			],
+			[
+				"cl.",
+				"Hayaku: ↑ +0.1 (Cycle value up by 0.1)"
+			],
+			[
+				"Snippet: ed",
+				"Snippet: Object-Method"
+			],
+			[
+				"rcc.t",
+				"Snippet: React: React.findDOMNode(…)"
+			],
+			[
+				"rc\t",
+				"Set Syntax: R Console"
+			],
+			[
+				"const",
+				"Snippet: constr"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: rea",
+				"Snippet: classReact"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"ign",
+				"Git: Update Project Ignored Files"
+			],
+			[
+				" comm",
+				"Git: Commit"
+			],
+			[
+				"n",
+				"Git: New Branch"
+			],
+			[
+				"add cu",
+				"Git: Add Current File"
+			],
+			[
+				"b",
+				"Git: Change Branch"
+			],
+			[
+				"comit cur",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"gia",
+				"Git: Add All"
+			],
+			[
+				"add all",
+				"Git: Add All"
+			],
+			[
+				"qi",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"dife",
+				"Git: Diff All Files"
+			],
+			[
+				"diffe",
+				"Git: Diff Staged Files"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			]
+		],
+		"width": 609.0
+	},
+	"console":
+	{
+		"height": 453.0,
+		"history":
+		[
+			"clear",
+			"git status",
+			"clear",
+			"npm install --save-dev esformatter-jsx",
+			"clear",
+			"install package"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/gitHubRepos/dd-date-time-input",
+		"/D/gitHubRepos/dd-date-time-input/dist",
+		"/D/gitHubRepos/dd-date-time-input/src"
+	],
+	"file_history":
+	[
+		"/D/gitHubRepos/dd-date-time-input/src/InfiniteCalendar/date/DateTHead.jsx",
+		"/D/gitHubRepos/dd-date-time-input/dist/index.html",
+		"/D/workplace/cientapp_splitcode/src/components/modules/tasksPage/taskRoutes.scss",
+		"/D/workplace/cientapp_splitcode/src/components/modules/tasksPage/TaskRoutes.jsx",
+		"/D/gitHubRepos/dd-date-time-input/src/TimeInput.jsx",
+		"/D/gitHubRepos/dd-date-time-input/src/index.js",
+		"/D/workplace/cientapp_splitcode/package.json",
+		"/D/workplace/cientapp_splitcode/src/css/mixin/mixin.scss",
+		"/D/gitHubRepos/dd-date-time-input/README.md",
+		"/D/gitHubRepos/dd-date-time-input/dist/main.js",
+		"/D/gitHubRepos/dd-date-time-input/src/instructons.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/tasksPage/OneTaskExecutionView.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/tasksPage/CompletedTasks.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/GeofenceAndAdresses/GeofenceConstrusctor.jsx",
+		"/D/workplace/cientapp_splitcode/src/actions/geoRequest.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/GeofenceAndAdresses/AddGeofences.jsx",
+		"/D/workplace/cientapp_splitcode/webpack/webpack.config.dev.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/GeofenceAndAdresses/AddressesGeofences.jsx",
+		"/D/workplace/cientapp_splitcode/src/actions/ActionCreator.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/GeofenceAndAdresses/drawFunction.js",
+		"/D/workplace/cientapp_splitcode/src/css/geofences_addresses.scss",
+		"/D/workplace/cientapp_splitcode/src/reducers/authorization_reducer.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/GeofenceAndAdresses/GeofencesList.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/gmaps/components/VehicleMarker.jsx",
+		"/D/workplace/cientapp_splitcode/workers/newStatusSender.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/controlPage/ControlContext.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/Websocket.jsx",
+		"/D/workplace/cientapp_splitcode/src/actions/Websocket.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/controlPage/OneVehicle.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/controlPage/VehicleStatus.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/TaskTemplates/SelectTransport.jsx",
+		"/D/workplace/cientapp_splitcode/src/store/VehicleContext.js",
+		"/D/workplace/cientapp_splitcode/webpack/webpack.config.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/reportsPage/ReportContext.js",
+		"/D/workplace/cientapp_splitcode/.gitignore",
+		"/D/workplace/cientapp_splitcode/src/components/modules/reportsPage/Report.jsx",
+		"/D/Sublime Text/projects/clientApp.sublime-project",
+		"/D/workplace/cientapp_splitcode/src/components/modules/reportsPage/ReportDefault.jsx",
+		"/D/workplace/cientapp_splitcode/package-lock.json",
+		"/D/workplace/cientapp_splitcode/src/components/modules/reportsPage/SettingsSidebar.jsx",
+		"/D/easeFront/package.json",
+		"/D/easeFront/gulp --gulpfile gulpfileEase.js",
+		"/D/workplace/cientapp_splitcode/src/components/pages/reportsPage.jsx",
+		"/D/workplace/cientapp_splitcode/LOGO/18_06_2020-00_00 - 18_06_2020-23_59 - Report_from_Globus.xls",
+		"/D/workplace/cientapp_splitcode/src/css/reports_page.scss",
+		"/D/workplace/cientapp_splitcode/src/actions/reportPage.js",
+		"/D/workplace/cientapp_splitcode/src/oftenUsed/Pop_up.jsx",
+		"/D/workplace/cientapp_splitcode/webpack/webpack.buildDev.js",
+		"/C/Users/Vaska/AppData/Roaming/npm-cache/_logs/2020-06-18T12_31_15_576Z-debug.log",
+		"/D/workplace/cientapp_splitcode/src/components/modules/UIHints/controlPageHint.jsx",
+		"/D/workplace/cientapp_splitcode/src/oftenUsed/svgicons.jsx",
+		"/D/workplace/cientapp_splitcode/src/css/icons.scss",
+		"/D/workplace/cientapp_splitcode/src/components/modules/allNotificationsPage/FuelDrainFiltersa.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/allNotificationsPage/NotifFilters.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/allNotificationsPage/FuelDrainFilter.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/filters/eventFilters.jsx",
+		"/D/workplace/cientapp_splitcode/.tabnineignore",
+		"/D/workplace/cientapp_splitcode/src/store/vocabularyRU.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/notifications/notifIcons.jsx",
+		"/D/workplace/cientapp_splitcode/src/actions/authActions.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/websocket_logic.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/controlPage/TransportStatus.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/pages/controlPage.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/controlPage/ContentControlPage.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/pages/routeDetailPage.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/routeDetailPage/Plashka.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/app.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/gmaps/components/carInfoWindow.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/gmaps/components/newVehicleMarker.js",
+		"/D/workplace/cientapp_splitcode/src/actions/reportPage.jsx",
+		"/D/workplace/cientapp_splitcode/src/store/VehicleContext.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/transportProfile/Other.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/controlPage/helpFunc.js",
+		"/D/workplace/cientapp_splitcode/src/store/store.js",
+		"/D/workplace/cientapp_splitcode/src/actions/controlPage.js",
+		"/D/workplace/cientapp_splitcode/src/components/charts/itinerary/index.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/controlPage/EditVehicleName.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/controlPage/EventsOnVehicle.jsx",
+		"/D/workplace/cientapp_splitcode/src/actions/transportInfo.js",
+		"/D/workplace/cientapp_splitcode/src/store/vocabularyEN.jsx",
+		"/D/workplace/cientapp_splitcode/src/store/vocabularyUA.jsx",
+		"/D/workplace/cientapp_splitcode/src/actions/bugReport.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/routeDetailPage/GraphContainer.jsx",
+		"/D/workplace/cientapp_splitcode/src/actions/routeDetailPage.js",
+		"/D/easeFront/gulpfileEase.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/userProfile/UserLink.jsx",
+		"/D/workplace/cientapp_splitcode/src/css/navigation.scss",
+		"/D/workplace/cientapp_splitcode/src/components/modules/Navigation.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/notifications/Notifications.jsx",
+		"/D/workplace/cientapp_splitcode/src/css/main.scss",
+		"/D/workplace/cientapp_splitcode/src/components/modules/notifications/NewNotification.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/notifications/OneNotification.jsx",
+		"/D/Sublime Text/Data/Packages/User/import.sublime-snippet",
+		"/D/workplace/cientapp_splitcode/src/actions/transportApi.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/GeofenceAndAdresses/AddAddress.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/routeDetailPage/funcOfDataFormation.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/charts/itinerary/svgComponents.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/controlPage/ButtonsBlock.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/pages/userProfilePage.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/userProfile/ProfileInfo.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/userProfile/NotifInSystem.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/userProfile/notifSettingsFunction.js",
+		"/D/workplace/cientapp_splitcode/src/components/modules/userProfile/ViewCheckboxSettings.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/notifications/NotifWebsocket.js",
+		"/D/workplace/cientapp_splitcode/src/entry.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/GoogleMap.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/GeofenceAndAdresses/DrawAllGeofences.jsx",
+		"/D/workplace/cientapp_splitcode/src/css/googlemaps.scss",
+		"/D/workplace/cientapp_splitcode/src/css/controlPage.scss",
+		"/D/workplace/cientapp_splitcode/src/components/modules/controlPage/GoogleMap.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/pages/newTask.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/ContextMenuForRB/WrapperForRightButtonMenu.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/transportProfile/TransportProfile.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/pages/AuthFromAdminPanel.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/filters/CreateGroup.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/filters/Filter_transport.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/reportsPage/optionalSettings.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/routeDetailPage/RouteTables.jsx",
+		"/D/workplace/cientapp_splitcode/src/images/simple_svg_icons.jsx",
+		"/D/workplace/cientapp_splitcode/test/mocha.opts",
+		"/D/workplace/cientapp_splitcode/src/css/form.scss",
+		"/D/workplace/cientapp_splitcode/src/components/modules/filters/EditGroup.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/filters/OneTransport.jsx",
+		"/D/workplace/cientapp_splitcode/src/oftenUsed/SelectListDate.jsx",
+		"/D/workplace/cientapp_splitcode/src/components/modules/routeDetailPage/Filters.jsx",
+		"/D/workplace/cientapp_splitcode/src/css/transportProfile.scss",
+		"/D/workplace/cientapp_splitcode/src/css/profileSettings.scss",
+		"/D/workplace/cientapp_splitcode/src/components/modules/transportProfile/EditorValue.jsx"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 113.6,
+		"where_history":
+		[
+			"D:\\workplace\\cientapp_splitcode\\src",
+			"D:\\workplace\\cientapp_splitcode"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"updateInputs",
+			"allValuesIsValid",
+			"getAttribute",
+			"<TimeInput  placeholder =   '25.08.1988 9:45'\n                                            class =         'input'\n                                            name =          'arrivalTimeAbsolute'\n                                            value =         {props.arrivalTimeAbsolute}\n                                            //maxDate =       {this.state.endTime}\n                                            onChange =      {props.enterToState}\n                                            textLabel =     {'Дата прибытия в локацию'}/>",
+			"updateGeo",
+			"saveGeophence",
+			"getPositionOfGeo",
+			"setHideAddGeofences",
+			"hide",
+			"clearEdit",
+			"event",
+			"info",
+			"event",
+			"valueToIput",
+			"this.reset",
+			"point_name",
+			"visibleMobile",
+			"disabled",
+			"event",
+			"AddGeofence",
+			"this.drawCircle",
+			"e.target.value",
+			"type",
+			"color",
+			"location",
+			"this.geoInfo",
+			"cirleColor",
+			"color",
+			"DrawingManager",
+			"updateStateVehicle",
+			"actionOnSensorEvents",
+			"updateStateVehicle",
+			"updateMarkerList",
+			"compareMarkerList",
+			"updatestore",
+			"eventsInfo",
+			";\n",
+			"createEvent",
+			"console",
+			"let",
+			"selectValue",
+			"preloader",
+			"casesWhenGetReportDisabled",
+			"this",
+			"contextStore",
+			"pushValueToContext",
+			"ReportContext",
+			"setSelectedReport",
+			"casesWhenGetReportDisabled",
+			"reportDto",
+			"buildDev",
+			"webpack.buildDev",
+			"starIcon",
+			"svgicons",
+			"FuelFilter",
+			"FuelDrainFilter",
+			"FuelFilter",
+			"FuelDrainFilter",
+			"svgicons",
+			"parkingI",
+			"svgicons",
+			"<FuelDrainFilter",
+			"FuelDrainFilter",
+			"svgicons",
+			"let versionApp",
+			"s",
+			"folders"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": false,
+		"use_buffer2": false,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/TimeInput.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1515,
+								1527
+							]
+						],
+						"settings":
+						{
+							"color_helper.scan":
+							{
+								"allow_scanning": false,
+								"color_class":
+								[
+									{
+										"class": "css-level-4",
+										"scopes": ""
+									}
+								],
+								"color_trigger": "(?i)(?:\\b(?<![-#&$])(?:color|hsla?|lch|lab|hwb|rgba?)\\(|\\b(?<![-#&$])[\\w]{3,}(?![(-])\\b|(?<![&])#)",
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": true,
+								"last_updated": 1622183370.77,
+								"scanning": "-comment -string"
+							},
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 339.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/instructons.js",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12042,
+								12042
+							]
+						],
+						"settings":
+						{
+							"color_helper.scan":
+							{
+								"allow_scanning": false,
+								"color_class":
+								[
+									{
+										"class": "css-level-4",
+										"scopes": ""
+									}
+								],
+								"color_trigger": "(?i)(?:\\b(?<![-#&$])(?:color|hsla?|lch|lab|hwb|rgba?)\\(|\\b(?<![-#&$])[\\w]{3,}(?![(-])\\b|(?<![&])#)",
+								"current_ext": ".js",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": true,
+								"last_updated": 1622183370.77,
+								"scanning": "-comment -string"
+							},
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1979.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"color_helper.scan":
+							{
+								"allow_scanning": false,
+								"color_class":
+								[
+									{
+										"class": "css-level-4",
+										"scopes": ""
+									}
+								],
+								"color_trigger": "(?i)(?:\\b(?<![-#&$])(?:color|hsla?|lch|lab|hwb|rgba?)\\(|\\b(?<![-#&$])[\\w]{3,}(?![(-])\\b|(?<![&])#)",
+								"current_ext": ".js",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": true,
+								"last_updated": 1622183370.77,
+								"scanning": "-comment -string"
+							},
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								573,
+								573
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 18,
+							"color_helper.color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"color_helper.refresh": false,
+							"color_helper.scan":
+							{
+								"allow_scanning": true,
+								"color_class":
+								[
+									{
+										"class": "css-level-4",
+										"scopes": ""
+									}
+								],
+								"color_trigger": "(?i)(?:\\b(?<![-#&$])(?:color|hsla?|lch|lab|hwb|rgba?)\\(|\\b(?<![-#&$])[\\w]{3,}(?![(-])\\b|(?<![&])#)",
+								"current_ext": ".md",
+								"current_syntax": "MarkdownEditing/Markdown",
+								"enabled": true,
+								"last_updated": 1622183370.77,
+								"scanning": "meta.declaration-list.css -support.type.property-name.css -comment -string,meta.property-value.css -comment -string,meta.value.css -comment -string,meta.tag.inline.any.html string.quoted -constant.character.entity.html,meta.tag.any.html meta.attribute-with-value.style.html"
+							},
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 221.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 243.0
+	},
+	"output.git":
+	{
+		"height": 468.0
+	},
+	"pinned_build_system": "",
+	"project": "dd-date-time-input.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"date",
+				"src\\InfiniteCalendar\\date\\DateTHead.jsx"
+			],
+			[
+				"mi",
+				"src\\css\\mixin\\mixin.scss"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"tasksRoutes",
+				"src\\components\\modules\\tasksPage\\taskRoutes.scss"
+			],
+			[
+				".dev",
+				"webpack\\webpack.config.dev.js"
+			],
+			[
+				"geoRequest",
+				"src\\actions\\geoRequest.js"
+			],
+			[
+				"geofe",
+				"src\\css\\geofences_addresses.scss"
+			],
+			[
+				"ve",
+				"src\\components\\gmaps\\components\\VehicleMarker.jsx"
+			],
+			[
+				"act",
+				"src\\actions\\ActionCreator.js"
+			],
+			[
+				"aut",
+				"src\\reducers\\authorization_reducer.js"
+			],
+			[
+				"vehi",
+				"src\\components\\gmaps\\components\\VehicleMarker.jsx"
+			],
+			[
+				"web dev",
+				"webpack\\webpack.config.dev.js"
+			],
+			[
+				"VehicleStatus",
+				"src\\components\\modules\\controlPage\\VehicleStatus.jsx"
+			],
+			[
+				"we",
+				"src\\components\\modules\\Websocket.jsx"
+			],
+			[
+				"web",
+				"src\\actions\\Websocket.js"
+			],
+			[
+				"au",
+				"src\\reducers\\authorization_reducer.js"
+			],
+			[
+				" veh",
+				"src\\store\\VehicleContext.js"
+			],
+			[
+				"Vehi",
+				"src\\components\\gmaps\\components\\VehicleMarker.jsx"
+			],
+			[
+				"Repo",
+				"src\\components\\modules\\reportsPage\\ReportContext.js"
+			],
+			[
+				"select",
+				"src\\components\\modules\\TaskTemplates\\SelectTransport.jsx"
+			],
+			[
+				"One",
+				"src\\components\\modules\\controlPage\\OneVehicle.jsx"
+			],
+			[
+				"ControlContext",
+				"src\\components\\modules\\controlPage\\ControlContext.js"
+			],
+			[
+				"reporD",
+				"src\\components\\modules\\reportsPage\\ReportDefault.jsx"
+			],
+			[
+				"package-lock.json",
+				"package-lock.json"
+			],
+			[
+				"package.json",
+				"package.json"
+			],
+			[
+				"SettingsSidebar.jsx",
+				"src\\components\\modules\\reportsPage\\SettingsSidebar.jsx"
+			],
+			[
+				"mix",
+				"src\\css\\mixin\\mixin.scss"
+			],
+			[
+				"reportC",
+				"src\\components\\modules\\reportsPage\\ReportContext.js"
+			],
+			[
+				"set",
+				"src\\components\\modules\\reportsPage\\SettingsSidebar.jsx"
+			],
+			[
+				"reportD",
+				"src\\components\\modules\\reportsPage\\ReportDefault.jsx"
+			],
+			[
+				"report",
+				"src\\components\\modules\\reportsPage\\Report.jsx"
+			],
+			[
+				"reportPage",
+				"src\\actions\\reportPage.js"
+			],
+			[
+				"po",
+				"src\\oftenUsed\\Pop_up.jsx"
+			],
+			[
+				"repo",
+				"src\\actions\\reportPage.js"
+			],
+			[
+				"icons.scss",
+				"src\\css\\icons.scss"
+			],
+			[
+				"s",
+				"src\\oftenUsed\\svgicons.jsx"
+			],
+			[
+				"svg",
+				"src\\oftenUsed\\svgicons.jsx"
+			],
+			[
+				"event",
+				"src\\components\\modules\\filters\\eventFilters.jsx"
+			],
+			[
+				"dev",
+				"webpack\\webpack.buildDev.js"
+			],
+			[
+				".gi",
+				".gitignore"
+			],
+			[
+				"ru",
+				"src\\store\\vocabularyRU.jsx"
+			],
+			[
+				"notifIcon",
+				"src\\components\\modules\\notifications\\notifIcons.jsx"
+			],
+			[
+				"OneNotification",
+				"src\\components\\modules\\notifications\\OneNotification.jsx"
+			],
+			[
+				"RU",
+				"src\\store\\vocabularyRU.jsx"
+			],
+			[
+				"sett",
+				"src\\components\\modules\\reportsPage\\SettingsSidebar.jsx"
+			],
+			[
+				"Plashka",
+				"src\\components\\modules\\routeDetailPage\\Plashka.jsx"
+			],
+			[
+				"rou",
+				"src\\components\\pages\\routeDetailPage.jsx"
+			],
+			[
+				"Websocket",
+				"src\\actions\\Websocket.js"
+			],
+			[
+				"con",
+				"src\\components\\modules\\controlPage\\ContentControlPage.jsx"
+			],
+			[
+				"ap",
+				"src\\components\\app.jsx"
+			],
+			[
+				"new",
+				"src\\components\\gmaps\\components\\newVehicleMarker.js"
+			],
+			[
+				"carInfoWindow",
+				"src\\components\\gmaps\\components\\carInfoWindow.jsx"
+			],
+			[
+				"Ve",
+				"src\\store\\VehicleContext.jsx"
+			],
+			[
+				"On",
+				"src\\components\\modules\\controlPage\\OneVehicle.jsx"
+			],
+			[
+				"Conte",
+				"src\\components\\modules\\controlPage\\ContentControlPage.jsx"
+			],
+			[
+				"ac",
+				"src\\actions\\ActionCreator.js"
+			],
+			[
+				"VehicleContext",
+				"src\\store\\VehicleContext.jsx"
+			],
+			[
+				"Ac",
+				"src\\actions\\ActionCreator.js"
+			],
+			[
+				"Re",
+				"src\\actions\\reportPage.jsx"
+			],
+			[
+				"A",
+				"src\\actions\\ActionCreator.js"
+			],
+			[
+				"svgicons",
+				"src\\oftenUsed\\svgicons.jsx"
+			],
+			[
+				"we ",
+				"src\\actions\\Websocket.js"
+			],
+			[
+				"store",
+				"src\\store\\store.js"
+			],
+			[
+				"cont",
+				"src\\components\\modules\\controlPage\\ContentControlPage.jsx"
+			],
+			[
+				"contr",
+				"src\\components\\pages\\controlPage.jsx"
+			],
+			[
+				"Cont",
+				"src\\actions\\controlPage.js"
+			],
+			[
+				"Tr",
+				"src\\components\\modules\\controlPage\\TransportStatus.jsx"
+			],
+			[
+				"AC",
+				"src\\actions\\ActionCreator.js"
+			],
+			[
+				"Tra",
+				"src\\components\\modules\\controlPage\\TransportStatus.jsx"
+			],
+			[
+				"ONe",
+				"src\\components\\modules\\controlPage\\OneVehicle.jsx"
+			],
+			[
+				"TransportStatus",
+				"src\\components\\modules\\controlPage\\TransportStatus.jsx"
+			],
+			[
+				"route",
+				"src\\actions\\routeDetailPage.js"
+			],
+			[
+				"Pop_up",
+				"src\\oftenUsed\\Pop_up.jsx"
+			],
+			[
+				"EN",
+				"src\\store\\vocabularyEN.jsx"
+			],
+			[
+				"UA",
+				"src\\store\\vocabularyUA.jsx"
+			],
+			[
+				"auth",
+				"src\\actions\\authActions.js"
+			],
+			[
+				"UserLink",
+				"src\\components\\modules\\userProfile\\UserLink.jsx"
+			],
+			[
+				"win",
+				"src\\components\\gmaps\\components\\carInfoWindow.jsx"
+			],
+			[
+				"Oh",
+				"src\\components\\modules\\transportProfile\\Other.jsx"
+			],
+			[
+				"froma",
+				"src\\components\\modules\\routeDetailPage\\funcOfDataFormation.jsx"
+			],
+			[
+				"mai",
+				"src\\css\\main.scss"
+			],
+			[
+				"Gr",
+				"src\\components\\modules\\routeDetailPage\\GraphContainer.jsx"
+			],
+			[
+				"SVG",
+				"src\\components\\charts\\itinerary\\svgComponents.js"
+			],
+			[
+				"ButtonsBlock",
+				"src\\components\\modules\\controlPage\\ButtonsBlock.jsx"
+			],
+			[
+				"Route",
+				"src\\components\\pages\\routeDetailPage.jsx"
+			],
+			[
+				"Ro",
+				"src\\actions\\routeDetailPage.js"
+			],
+			[
+				"NotifI",
+				"src\\components\\modules\\userProfile\\NotifInSystem.jsx"
+			],
+			[
+				"ProfileInfo",
+				"src\\components\\modules\\userProfile\\ProfileInfo.jsx"
+			],
+			[
+				"use",
+				"src\\components\\pages\\userProfilePage.jsx"
+			],
+			[
+				"Notif",
+				"src\\components\\modules\\notifications\\NotifWebsocket.js"
+			],
+			[
+				"e",
+				"src\\entry.jsx"
+			],
+			[
+				"webso",
+				"src\\components\\modules\\websocket_logic.jsx"
+			],
+			[
+				"app",
+				"src\\components\\app.jsx"
+			],
+			[
+				"NotifW",
+				"src\\components\\modules\\notifications\\NotifWebsocket.js"
+			],
+			[
+				"DrawAllGeofences",
+				"src\\components\\modules\\GeofenceAndAdresses\\DrawAllGeofences.jsx"
+			],
+			[
+				"Veh",
+				"src\\store\\VehicleContext.jsx"
+			],
+			[
+				"co",
+				"src\\css\\controlPage.scss"
+			],
+			[
+				"goo",
+				"src\\css\\googlemaps.scss"
+			],
+			[
+				"newTask.jsx",
+				"src\\components\\pages\\newTask.jsx"
+			],
+			[
+				"routeDetailPage.jsx",
+				"src\\components\\pages\\routeDetailPage.jsx"
+			],
+			[
+				"/newTask.jsx",
+				"src\\components\\pages\\newTask.jsx"
+			],
+			[
+				"Goo",
+				"src\\components\\modules\\controlPage\\GoogleMap.jsx"
+			],
+			[
+				"wr",
+				"src\\components\\modules\\ContextMenuForRB\\WrapperForRightButtonMenu.jsx"
+			],
+			[
+				"Wra",
+				"src\\components\\modules\\ContextMenuForRB\\WrapperForRightButtonMenu.jsx"
+			],
+			[
+				"a",
+				"src\\actions\\authActions.js"
+			],
+			[
+				"re",
+				"src\\actions\\reportPage.jsx"
+			],
+			[
+				"sim",
+				"src\\images\\simple_svg_icons.jsx"
+			],
+			[
+				"simple_svg_icons",
+				"src\\images\\simple_svg_icons.jsx"
+			],
+			[
+				"Gro",
+				"src\\components\\modules\\filters\\EditGroup.jsx"
+			],
+			[
+				"TransportParameters",
+				"src\\components\\modules\\transportProfile\\TransportParameters.jsx"
+			],
+			[
+				"SelectListDate",
+				"src\\oftenUsed\\SelectListDate.jsx"
+			],
+			[
+				"Filters",
+				"src\\components\\modules\\routeDetailPage\\Filters.jsx"
+			],
+			[
+				"fi",
+				"src\\components\\modules\\controlPage\\Filters.jsx"
+			],
+			[
+				"ma",
+				"src\\css\\main.scss"
+			],
+			[
+				"S",
+				"src\\oftenUsed\\SearchInput.jsx"
+			],
+			[
+				"ViewCheckboxSettings",
+				"src\\components\\modules\\userProfile\\ViewCheckboxSettings.jsx"
+			],
+			[
+				"c",
+				"src\\css\\controlPage.scss"
+			],
+			[
+				"Na",
+				"src\\components\\modules\\Navigation.jsx"
+			],
+			[
+				"pop",
+				"src\\css\\pop_up.scss"
+			],
+			[
+				"tran",
+				"src\\actions\\transportInfo.js"
+			],
+			[
+				"tr",
+				"src\\actions\\transportApi.js"
+			],
+			[
+				"autj",
+				"src\\reducers\\authorization_reducer.js"
+			],
+			[
+				"m",
+				"src\\css\\main.scss"
+			],
+			[
+				"Se",
+				"src\\oftenUsed\\SearchInput.jsx"
+			],
+			[
+				"trans",
+				"src\\css\\transportProfile.scss"
+			],
+			[
+				"main",
+				"src\\css\\main.scss"
+			],
+			[
+				"Po",
+				"src\\oftenUsed\\Pop_up.jsx"
+			],
+			[
+				"mani",
+				"apiSettings\\manifest.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\workplace\\cientapp_splitcode\\clientApp.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 296.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

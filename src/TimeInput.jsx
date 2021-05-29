@@ -24,6 +24,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 			this.tempDate = moment(this.props.value)
 		}
 		window.T = this
+		this.diaplayName = 'TimeInput';
 	}
 	static getDerivedStateFromProps(props, state) {
 		return {
@@ -129,8 +130,9 @@ const TimeInput = (Base) => class TimeInput extends Base{
 	render(){
 		const {dateTimePickerVisibility, value} = this.state;
 		const { className, name, placeholder,
-				textLabel, onChange, id, defaultValue, minDate, maxDate, disabledDate} = this.props;
+				textLabel, onChange, id, defaultValue, minDate, maxDate, disabledDate, orangeStyle} = this.props;
 		const idContainer = name + 'dateTimePicker';
+
 		return 	<ClickOutside 	className = {'time_input_container ' + className}
 								onClickOutside = {this.onClickOutside}>
 
@@ -227,6 +229,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 									selectedMinute = 		   { this.getMinutes}
 									hidePicker =               { this.hidePicker }
 									idContainer = 			   { idContainer }
+									orangeStyle = 			   {orangeStyle}
 									name =                     { name } />
 
 				</ClickOutside>
@@ -251,6 +254,7 @@ function Tooltip(props){
 
 function DateTimePicker(props){//add here value for calendar
 	const {dateTimePickerVisibility, onSelectDate, name, hidePicker, onSelectTime, timeValue, idContainer,
+		orangeStyle,
 		selectedHour, selectedMinute} = props;
 	return 	dateTimePickerVisibility ?
 			ReactDOM.createPortal(
@@ -261,6 +265,7 @@ function DateTimePicker(props){//add here value for calendar
 					<NewCalendar 	onSelect = {onSelectDate}
 									name = 	   {name}/>
 					<TimePicker active = {true}
+								orangeStyle = 			{orangeStyle}
 								selectedHour = 			{selectedHour}
 								selectedMinute = 		{selectedMinute}
 								idParrentContainer = 	{idContainer}

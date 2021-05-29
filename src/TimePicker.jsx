@@ -27,12 +27,17 @@ class TimePicker extends React.Component{
 
     render(){
         const {active, selectedMinute, selectedHour} = this.state;
+        const {orangeStyle} = this.props;
+        const className = orangeStyle ? 'choose_time orange_color' : 'choose_time';
+        TPStyles.color = orangeStyle ? '#f47216' : "#4179f8";
         return  active ?
-            <div className = 'choose_time' >
+            <div className = {className} >
                 <HoursListView  list =          { TimeLists.hoursList }
-                                onSelectHour =      { this.selectHour }
+                                orangeStyle =   {orangeStyle}
+                                onSelectHour =  { this.selectHour }
                                 selectedValue = { selectedHour } />
                 <MinutesListView    list =          {TimeLists.minutesList}
+                                    orangeStyle =   {orangeStyle}
                                     onSelectMinute = {this.selectMinutes}
                                     selectedValue = {selectedMinute} />
             </div> :
@@ -107,8 +112,9 @@ class RectInfo{
 }
 
 const TPStyles = {
+    color: "#4179f8",
     forSelectedEl: function(selectedValue, elValue) {
-        return Number(selectedValue) == Number(elValue) ? { backgroundColor: "#4179f8" } : null
+        return Number(selectedValue) == Number(elValue) ? { backgroundColor: this.color } : null
     }
 }
 

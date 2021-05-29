@@ -3,14 +3,14 @@ import React      from 'react'
 import TimeInput  from './TimeInput.jsx'
 import { render } from 'react-dom'
 import moment     from 'moment'
-
+import TimePicker from './TimePicker.jsx'
 export default TimeInput;
-
+export TimePicker
 // class Container extends React.Component {
 //     constructor(props){
 //         super(props);
 //         this.state = {
-//             date:     new Date(),
+//             date:     null,
 //             disabled: false
 //         }
 //         this.initialState = this.state;

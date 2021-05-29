@@ -85,7 +85,6 @@
         "react-click-outside": "file:../react-click-outside",
         "react-dom": "17.0.2",
         "@babel/core": "7.13.15",
-        "@babel/plugin-proposal-class-properties": "7.13.0",
         "@babel/plugin-transform-react-jsx": "7.13.12",
         "@babel/preset-env": "7.13.15",
         "@babel/preset-es2015": "7.0.0-beta.53",
@@ -99,6 +98,5 @@
         "webpack-entrypoints-plugin": "1.1.1",
         "webpack-merge": "5.7.3"
     },
-
     "main": "dist/main.js"
 }
