@@ -16,6 +16,7 @@ class TimePicker extends React.Component{
         return {
             selectedHour:   props.selectedHour,
             selectedMinute: props.selectedMinute,
+            active:         props.active,
         }
     }
     selectHour = (hourValue) =>{
@@ -77,7 +78,7 @@ class  GenerateTimeLists{
     }
     generateSeconds() {
         for(let digit = 0; digit <= 59; digit++) {
-            this.minutesList.push(digit)
+            this.secondsList.push(digit)
         }
     }
     generateMilliseconds(){
