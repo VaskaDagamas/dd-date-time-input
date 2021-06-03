@@ -38,10 +38,6 @@ const TimeInput = (Base) => class TimeInput extends Base{
 	componentDidUpdate(prevProps, prevState, snapshot){
 		if(prevState.isEmptyDate && !this.state.isEmptyDate){
 			this.updateInputs(moment(this.state.value))
-		}else{
-			if(!this.state.isEmptyDate && this.state.value !== prevState.value){
-				this.updateInputs(moment(this.state.value))
-			}
 		}
 	}
 	componentDidMount() {
@@ -134,10 +130,14 @@ const TimeInput = (Base) => class TimeInput extends Base{
 		this.setState({messageText: ''})
 	}
 	render(){
-		const {dateTimePickerVisibility, value} = this.state;
+		const {dateTimePickerVisibility, value, isEmptyDate} = this.state;
 		const { className, name, placeholder,
 				textLabel, onChange, id, defaultValue, minDate, maxDate, disabledDate, orangeStyle} = this.props;
 		const idContainer = name + 'dateTimePicker';
+		console.log("%c renderTimeInput", coCSS, this.isSelected)
+		if(!this.isSelected && !isEmptyDate){//crutch for situation when date was received from props
+			this.updateInputs(value)
+		}
 		return 	<ClickOutside 	className = {'time_input_container ' + className}
 								onClickOutside = {this.onClickOutside}>
 
