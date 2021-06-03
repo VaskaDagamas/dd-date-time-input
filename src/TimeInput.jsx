@@ -9,6 +9,8 @@ import ReactDOM                                          from "react-dom";
 
 import './timeInput.scss'
 
+let crutch
+
 const TimeInput = (Base) => class TimeInput extends Base{
 	constructor(props){
 		super(props);
@@ -36,6 +38,10 @@ const TimeInput = (Base) => class TimeInput extends Base{
 	componentDidUpdate(prevProps, prevState, snapshot){
 		if(prevState.isEmptyDate && !this.state.isEmptyDate){
 			this.updateInputs(moment(this.state.value))
+		}else{
+			if(!this.state.isEmptyDate && this.state.value !== prevState.value){
+				this.updateInputs(moment(this.state.value))
+			}
 		}
 	}
 	componentDidMount() {
@@ -132,7 +138,6 @@ const TimeInput = (Base) => class TimeInput extends Base{
 		const { className, name, placeholder,
 				textLabel, onChange, id, defaultValue, minDate, maxDate, disabledDate, orangeStyle} = this.props;
 		const idContainer = name + 'dateTimePicker';
-
 		return 	<ClickOutside 	className = {'time_input_container ' + className}
 								onClickOutside = {this.onClickOutside}>
 
