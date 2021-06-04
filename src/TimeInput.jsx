@@ -36,9 +36,9 @@ const TimeInput = (Base) => class TimeInput extends Base{
 		}
 	}
 	componentDidUpdate(prevProps, prevState, snapshot){
-		if(prevState.isEmptyDate && !this.state.isEmptyDate){
-			this.updateInputs(moment(this.state.value))
-		}
+		// if(prevState.isEmptyDate && !this.state.isEmptyDate){
+		// 	this.updateInputs(moment(this.state.value))
+		// }
 	}
 	componentDidMount() {
 		// this.addListenners()
@@ -129,13 +129,18 @@ const TimeInput = (Base) => class TimeInput extends Base{
 		this.messageWasShowed = true
 		this.setState({messageText: ''})
 	}
+	clearDate = () => {
+		this.clearEnteredValues();
+		this.valueWasChange = false;
+		this.props.onChange({name: this.props.name, value: null})
+	}
 	render(){
 		const {dateTimePickerVisibility, value, isEmptyDate} = this.state;
 		const { className, name, placeholder,
 				textLabel, onChange, id, defaultValue, minDate, maxDate, disabledDate, orangeStyle} = this.props;
 		const idContainer = name + 'dateTimePicker';
-		console.log("%c renderTimeInput", coCSS, this.isSelected)
 		if(!this.isSelected && !isEmptyDate){//crutch for situation when date was received from props
+			// console.log("%c TIMEINPUT - updateInputs on renderTimeInput", coCSS,)
 			this.updateInputs(value)
 		}
 		return 	<ClickOutside 	className = {'time_input_container ' + className}
@@ -225,6 +230,13 @@ const TimeInput = (Base) => class TimeInput extends Base{
 								onClick = 	{this.tooglePicker }>
 							{calendarIcon(dateTimePickerVisibility)}
 						</button>
+						<button name = 		'clearDate'
+								className = 'time_input_clear_button'
+								style  = 	{{visibility: value ? 'visible' :'hidden' }}
+								disabled =  {disabledDate}
+								onClick = 	{this.clearDate }>
+							{closeIcon()}
+						</button>
 					</div>
 					<Tooltip {...this.state} clearMessage = {this.hideMessage}/>
 					<DateTimePicker onSelectDate =             { this.selectDateFromPickerInstructions }
@@ -233,6 +245,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 									selectedHour = 			   { this.getHours}
 									selectedMinute = 		   { this.getMinutes}
 									hidePicker =               { this.hidePicker }
+									value = 				   {value}
 									idContainer = 			   { idContainer }
 									orangeStyle = 			   {orangeStyle}
 									name =                     { name } />
@@ -267,8 +280,10 @@ function DateTimePicker(props){//add here value for calendar
 								id = {idContainer}
 							  	className = 'date_time_picker_wrapper ABSFixCent'>
 					<button onClick = {hidePicker} className = 'close_picker_btn'>{closeIcon('close_icon')}</button>
-					<NewCalendar 	onSelect = {onSelectDate}
-									name = 	   {name}/>
+					<NewCalendar 	onSelect = 	{onSelectDate}
+									onChange = 	{onSelectDate}
+									value = {moment(props.value).isValid() ? props.value : moment()}
+									name = 	   	{name}/>
 					<TimePicker active = {true}
 								orangeStyle = 			{orangeStyle}
 								selectedHour = 			{selectedHour}
