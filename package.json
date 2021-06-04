@@ -1,6 +1,6 @@
 {
     "name": "dd-date-time-input",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "will write later",
     "scripts": {
         "dev": "webpack --mode development --config webpack.config.js",
