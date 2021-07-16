@@ -148,7 +148,7 @@
 	.seconds_input {
 		width: 19px;
 		padding-left: 3px;
-		height: $inHeight;
+		// height: inherit;
 
 		@include placeholder {
 			@include date_placeholder
@@ -159,7 +159,7 @@
 
 	.year_input {
 		width: 35px;
-		height: $inHeight;
+		// height: inherit;
 		padding-left: 3px;
 		margin-right: 3px;
 
@@ -178,12 +178,15 @@
 		width: auto;
 		padding-left: 7px;
 		padding-right: 7px;
-
+		height: $inHeight;
+		// width: 100%;
 	}
 
 	.group_inputs {
 		margin-right: 10px;
-
+		height: inherit;
+		display: flex;
+	    align-items: center;
 	}
 }
 
@@ -213,19 +216,19 @@
 		border-radius: 50%;
 	}
 
-	.calendar {
+	.time_input_calendar {
 		position: static;
 		border: 1px solid $border_block;
 		padding: 15px 15px 0px;
 		background: inherit;
 		box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
 
-		.calendar-date-panel {
+		.time_input_calendar-date-panel {
 			position: static;
 		}
 	}
 
-	.calendar-date-panel {
+	.time_input_calendar-date-panel {
 		left: auto;
 		bottom: auto;
 	}
@@ -237,7 +240,7 @@
 	background: inherit;
 	height: 14px;
 
-	.calendar_triger {
+	.time_input_calendar_triger {
 		position: static;
 	}
 }
@@ -280,7 +283,7 @@
 		bottom: 0px;
 		padding-top: 23px;
 
-		.calendar {
+		.time_input_calendar {
 			height: 289px;
 			margin-bottom: 15px;
 		}

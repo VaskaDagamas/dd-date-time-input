@@ -28,8 +28,12 @@ class TimePicker extends React.Component{
 
     render(){
         const {active, selectedMinute, selectedHour} = this.state;
-        const {orangeStyle} = this.props;
-        const className = orangeStyle ? 'choose_time orange_color' : 'choose_time';
+        const {orangeStyle, containerClassName} = this.props;
+        let className = orangeStyle ? 'choose_time orange_color' : 'choose_time';
+        if(containerClassName){
+            className += ' ' + containerClassName;
+        }
+
         TPStyles.color = orangeStyle ? '#f47216' : "#4179f8";
         return  active ?
             <div className = {className} >

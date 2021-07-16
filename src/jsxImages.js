@@ -2,7 +2,7 @@ import React            from 'react'
 
 export function calendarIcon(status){
     const fill_color = status ? "#4179f8" : '#000000';
-    return <svg className='calendar_triger'
+    return <svg className='time_input_calendar_triger'
                 width="12px" height="14px" viewBox="0 0 12 14"
                 version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                   <g id="Task" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">

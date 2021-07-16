@@ -98,7 +98,8 @@ const TimeInput = (Base) => class TimeInput extends Base{
 			})
 		}
 	}
-	tooglePicker = () => {
+	tooglePicker = (e) => {
+		e.preventDefault();
 		const {dateTimePickerVisibility} = this.state;
 		const {name} = this.props;
 		const idContainer = name + 'dateTimePicker';
@@ -129,18 +130,18 @@ const TimeInput = (Base) => class TimeInput extends Base{
 		this.messageWasShowed = true
 		this.setState({messageText: ''})
 	}
-	clearDate = () => {
+	clearDate = (e) => {
+		e.preventDefault();
 		this.clearEnteredValues();
 		this.valueWasChange = false;
 		this.props.onChange({name: this.props.name, value: null})
 	}
 	render(){
 		const {dateTimePickerVisibility, value, isEmptyDate} = this.state;
-		const { className, name, placeholder,
+		const { className, name, placeholder, hiddenTime,
 				textLabel, onChange, id, defaultValue, minDate, maxDate, disabledDate, orangeStyle} = this.props;
 		const idContainer = name + 'dateTimePicker';
 		if(!this.isSelected && !isEmptyDate){//crutch for situation when date was received from props
-			// console.log("%c TIMEINPUT - updateInputs on renderTimeInput", coCSS,)
 			this.updateInputs(value)
 		}
 		return 	<ClickOutside 	className = {'time_input_container ' + className}
@@ -187,6 +188,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 									name =        'Year' />
 							<input 	type =        'text'
 									className =   'hours_input'
+									style = {{display: hiddenTime ? 'none' : 'inline-block'}}
 									onChange =    {(e)=>this.setHours(e.target.value)}
 									value =       {this.getHours}
 									onBlur =      {this.onBlurMinutes}
@@ -195,9 +197,10 @@ const TimeInput = (Base) => class TimeInput extends Base{
 
 									placeholder = 'чч'
 									name =        'Hour' />
-									:
+							{ hiddenTime ? null : ':' }
 							<input 	type =        'text'
 									className =   'minutes_input'
+									style = {{display: hiddenTime ? 'none' : 'inline-block'}}
 									onChange =    {(e)=>this.setMinutes(e.target.value)}
 									value =       {this.getMinutes}
 									onBlur =      {this.onBlurMinutes}
@@ -235,7 +238,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 								style  = 	{{visibility: value ? 'visible' :'hidden' }}
 								disabled =  {disabledDate}
 								onClick = 	{this.clearDate }>
-							{closeIcon()}
+							{closeIcon('time_input_close_icon')}
 						</button>
 					</div>
 					<Tooltip {...this.state} clearMessage = {this.hideMessage}/>
@@ -245,6 +248,8 @@ const TimeInput = (Base) => class TimeInput extends Base{
 									selectedHour = 			   { this.getHours}
 									selectedMinute = 		   { this.getMinutes}
 									hidePicker =               { this.hidePicker }
+									minDate = 				   {minDate}
+									maxDate = 				   {maxDate}
 									value = 				   {value}
 									idContainer = 			   { idContainer }
 									orangeStyle = 			   {orangeStyle}
@@ -274,6 +279,18 @@ function DateTimePicker(props){//add here value for calendar
 	const {dateTimePickerVisibility, onSelectDate, name, hidePicker, onSelectTime, timeValue, idContainer,
 		orangeStyle,
 		selectedHour, selectedMinute} = props;
+	const disabledDate = (value) => {
+		if(props.maxDate && props.minDate){
+			return value > props.maxDate || value < props.minDate
+		}
+		if(props.minDate){
+			return value < props.minDate
+		}
+		if(props.maxDate){
+			return value > props.maxDate
+		}
+		return false
+	}
 	return 	dateTimePickerVisibility ?
 			ReactDOM.createPortal(
 				<ClickOutside 	onClickOutside = {hidePicker}
@@ -281,7 +298,11 @@ function DateTimePicker(props){//add here value for calendar
 							  	className = 'date_time_picker_wrapper ABSFixCent'>
 					<button onClick = {hidePicker} className = 'close_picker_btn'>{closeIcon('close_icon')}</button>
 					<NewCalendar 	onSelect = 	{onSelectDate}
-									onChange = 	{onSelectDate}
+									prefixCls = {'time_input_calendar'}
+									disabledDate = {disabledDate}
+									minDate = 	{props.minDate}
+									maxDate =   {props.maxDate}
+									onChange = 	{(e) => onSelectDate({name: name, value:e}) }
 									value = {moment(props.value).isValid() ? props.value : moment()}
 									name = 	   	{name}/>
 					<TimePicker active = {true}

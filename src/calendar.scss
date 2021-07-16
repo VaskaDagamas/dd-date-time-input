@@ -1,11 +1,11 @@
-/*calendar.scss*/
+/*time_input_calendar.scss*/
 @import "mixin.scss";
 
-.calendar {
+.time_input_calendar {
 	display: inline-block;
 }
 
-.calendar-date-panel {
+.time_input_calendar-date-panel {
 	width: 230px;
 	position: absolute;
 	left: -231px;
@@ -15,12 +15,12 @@
 	border-radius: 4px;
 }
 
-.calendar-date-input-wrap {
+.time_input_calendar-date-input-wrap {
 	position: relative;
 	display: inline-block;
 }
 
-.calendar_triger {
+.time_input_calendar_triger {
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -35,7 +35,7 @@
 	}
 }
 
-.calendar-input {
+.time_input_calendar-input {
 	width: 177px;
 	height: 35px;
 	border-radius: 4px;
@@ -48,11 +48,11 @@
 	}
 }
 
-.calendar-input-invalid {
+.time_input_calendar-input-invalid {
 	box-shadow: inset 0px 0px 17px -5px rgba(240, 36, 36, 0.88);
 }
 
-.calendar-my-select {
+.time_input_calendar-my-select {
 	width: 143px;
 	height: 16px;
 	font-weight: 700;
@@ -67,18 +67,20 @@
 	line-height: 32px;
 }
 
-.calendar-header {
+.time_input_calendar-header {
 	height: 30px;
 }
 
-.calendar-year-select {
+
+
+.time_input_calendar-year-select {
 	position: absolute;
 	z-index: 1;
 	right: 55px;
 }
 
 
-.calendar-next-year-btn {
+.time_input_calendar-next-year-btn {
 	right: 0px;
 	position: absolute;
 	width: 32px;
@@ -92,11 +94,11 @@
 		display: block;
 		background-repeat: no-repeat;
 		background-position: center;
-		background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='15px' height='13px' viewBox='0 0 15 13' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3EFill 1%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3C/defs%3E%3Cg id='UI-Kit' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Period-picker-states' transform='translate(-605.000000, -86.000000)' fill='%230E0E0E'%3E%3Cg id='period-calendar-copy-2' transform='translate(152.000000, 77.000000)'%3E%3Cg id='>' transform='translate(444.000000, 0.000000)'%3E%3Cpath d='M24,14.5420184 L12.4033698,14.5420184 L16.7003086,10.3731232 L15.2850113,9 L9.29351906,14.8129529 C8.90216031,15.1926496 8.90216031,15.8073504 9.29351906,16.186076 L15.2850113,22 L16.7003086,20.6268768 L12.4303945,16.4842011 L24,16.4842011 L24,14.5420184 Z' id='Fill-1' transform='translate(16.500000, 15.500000) scale(-1, 1) translate(-16.500000, -15.500000) '%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='15px' height='13px' viewBox='0 0 15 13' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3EFill 1%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3C/defs%3E%3Cg id='UI-Kit' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Period-picker-states' transform='translate(-605.000000, -86.000000)' fill='%230E0E0E'%3E%3Cg id='period-time_input_calendar-copy-2' transform='translate(152.000000, 77.000000)'%3E%3Cg id='>' transform='translate(444.000000, 0.000000)'%3E%3Cpath d='M24,14.5420184 L12.4033698,14.5420184 L16.7003086,10.3731232 L15.2850113,9 L9.29351906,14.8129529 C8.90216031,15.1926496 8.90216031,15.8073504 9.29351906,16.186076 L15.2850113,22 L16.7003086,20.6268768 L12.4303945,16.4842011 L24,16.4842011 L24,14.5420184 Z' id='Fill-1' transform='translate(16.500000, 15.500000) scale(-1, 1) translate(-16.500000, -15.500000) '%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 	}
 }
 
-.calendar-next-month-btn {
+.time_input_calendar-next-month-btn {
 	position: absolute;
 	width: 32px;
 	height: 32px;
@@ -110,11 +112,11 @@
 		display: block;
 		background-repeat: no-repeat;
 		background-position: center;
-		background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='15px' height='13px' viewBox='0 0 15 13' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3EFill 1%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3C/defs%3E%3Cg id='UI-Kit' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Period-picker-states' transform='translate(-605.000000, -86.000000)' fill='%230E0E0E'%3E%3Cg id='period-calendar-copy-2' transform='translate(152.000000, 77.000000)'%3E%3Cg id='>' transform='translate(444.000000, 0.000000)'%3E%3Cpath d='M24,14.5420184 L12.4033698,14.5420184 L16.7003086,10.3731232 L15.2850113,9 L9.29351906,14.8129529 C8.90216031,15.1926496 8.90216031,15.8073504 9.29351906,16.186076 L15.2850113,22 L16.7003086,20.6268768 L12.4303945,16.4842011 L24,16.4842011 L24,14.5420184 Z' id='Fill-1' transform='translate(16.500000, 15.500000) scale(-1, 1) translate(-16.500000, -15.500000) '%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='15px' height='13px' viewBox='0 0 15 13' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3EFill 1%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3C/defs%3E%3Cg id='UI-Kit' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Period-picker-states' transform='translate(-605.000000, -86.000000)' fill='%230E0E0E'%3E%3Cg id='period-time_input_calendar-copy-2' transform='translate(152.000000, 77.000000)'%3E%3Cg id='>' transform='translate(444.000000, 0.000000)'%3E%3Cpath d='M24,14.5420184 L12.4033698,14.5420184 L16.7003086,10.3731232 L15.2850113,9 L9.29351906,14.8129529 C8.90216031,15.1926496 8.90216031,15.8073504 9.29351906,16.186076 L15.2850113,22 L16.7003086,20.6268768 L12.4303945,16.4842011 L24,16.4842011 L24,14.5420184 Z' id='Fill-1' transform='translate(16.500000, 15.500000) scale(-1, 1) translate(-16.500000, -15.500000) '%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 	}
 }
 
-.calendar-prev-year-btn {
+.time_input_calendar-prev-year-btn {
 	right: 100px;
 	position: absolute;
 	width: 32px;
@@ -128,11 +130,11 @@
 		display: block;
 		background-repeat: no-repeat;
 		background-position: center;
-		background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='15px' height='14px' viewBox='0 0 15 14' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='UI-Kit_left' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Period-picker-states_left' transform='translate(-161.000000, -86.000000)' fill='%230E0E0E'%3E%3Cg id='period-calendar-copy-2_left' transform='translate(152.000000, 77.000000)'%3E%3Cg id='_left'%3E%3Cpath d='M23.98625,14.707 L12.40025,14.707 L16.69325,10.414 L15.27925,9 L9.29325,14.986 C8.90225,15.377 8.90225,16.01 9.29325,16.4 L15.27925,22.387 L16.69325,20.973 L12.42725,16.707 L23.98625,16.707 L23.98625,14.707 Z' id='Fill-1_left'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='15px' height='14px' viewBox='0 0 15 14' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='UI-Kit_left' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Period-picker-states_left' transform='translate(-161.000000, -86.000000)' fill='%230E0E0E'%3E%3Cg id='period-time_input_calendar-copy-2_left' transform='translate(152.000000, 77.000000)'%3E%3Cg id='_left'%3E%3Cpath d='M23.98625,14.707 L12.40025,14.707 L16.69325,10.414 L15.27925,9 L9.29325,14.986 C8.90225,15.377 8.90225,16.01 9.29325,16.4 L15.27925,22.387 L16.69325,20.973 L12.42725,16.707 L23.98625,16.707 L23.98625,14.707 Z' id='Fill-1_left'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 	}
 }
 
-.calendar-prev-month-btn {
+.time_input_calendar-prev-month-btn {
 	position: absolute;
 	width: 32px;
 	height: 32px;
@@ -146,14 +148,14 @@
 		display: block;
 		background-repeat: no-repeat;
 		background-position: center;
-		background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='15px' height='14px' viewBox='0 0 15 14' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='UI-Kit_left' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Period-picker-states_left' transform='translate(-161.000000, -86.000000)' fill='%230E0E0E'%3E%3Cg id='period-calendar-copy-2_left' transform='translate(152.000000, 77.000000)'%3E%3Cg id='_left'%3E%3Cpath d='M23.98625,14.707 L12.40025,14.707 L16.69325,10.414 L15.27925,9 L9.29325,14.986 C8.90225,15.377 8.90225,16.01 9.29325,16.4 L15.27925,22.387 L16.69325,20.973 L12.42725,16.707 L23.98625,16.707 L23.98625,14.707 Z' id='Fill-1_left'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='15px' height='14px' viewBox='0 0 15 14' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='UI-Kit_left' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Period-picker-states_left' transform='translate(-161.000000, -86.000000)' fill='%230E0E0E'%3E%3Cg id='period-time_input_calendar-copy-2_left' transform='translate(152.000000, 77.000000)'%3E%3Cg id='_left'%3E%3Cpath d='M23.98625,14.707 L12.40025,14.707 L16.69325,10.414 L15.27925,9 L9.29325,14.986 C8.90225,15.377 8.90225,16.01 9.29325,16.4 L15.27925,22.387 L16.69325,20.973 L12.42725,16.707 L23.98625,16.707 L23.98625,14.707 Z' id='Fill-1_left'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 	}
 }
 
-.calendar-prev-month-btn,
-.calendar-next-month-btn,
-.calendar-next-year-btn,
-.calendar-prev-year-btn {
+.time_input_calendar-prev-month-btn,
+.time_input_calendar-next-month-btn,
+.time_input_calendar-next-year-btn,
+.time_input_calendar-prev-year-btn {
 	line-height: 29px;
 	width: 32px;
 	height: 32px;
@@ -173,7 +175,7 @@
 	}
 }
 
-.calendar-month-select {
+.time_input_calendar-month-select {
 	position: absolute;
 	z-index: 1;
 	left: 38px;
@@ -186,13 +188,13 @@
 	}
 }
 
-.calendar-body {
+.time_input_calendar-body {
 	thead {
 		line-height: 39px;
 	}
 }
 
-.calendar-column-header-inner {
+.time_input_calendar-column-header-inner {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 12px;
@@ -205,7 +207,7 @@
 	color: #9aa0a7;
 }
 
-.calendar-cell {
+.time_input_calendar-cell {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 12px;
@@ -219,7 +221,7 @@
 	cursor: pointer;
 }
 
-.calendar-cell {
+.time_input_calendar-cell {
 	width: 32px;
 	height: 32px;
 	background-color: #ffffff;
@@ -227,36 +229,36 @@
 	border: solid 1px rgba(65, 79, 91, 0.2);
 }
 
-.calendar-last-month-cell,
-.calendar-next-month-btn-day {
+.time_input_calendar-last-month-cell,
+.time_input_calendar-next-month-btn-day {
 	visibility: hidden;
 }
 
-.calendar-table {
+.time_input_calendar-table {
 	width: 100%;
 }
 
-.calendar-selected-day {
+.time_input_calendar-selected-day {
 	background-color: #f1f1f1;
 }
 
-.calendar-selected-date {
+.time_input_calendar-selected-date {
 	background: #4179F8;
 	color: white;
 }
 
-.calendar-month-panel-body {
+.time_input_calendar-month-panel-body {
 	padding-top: 60px;
 }
 
-.calendar-month-panel-table {
+.time_input_calendar-month-panel-table {
 	width: 72%;
 	background: #FFF;
 	position: relative;
 	z-index: 2;
 	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
 
-	.calendar-month-panel-tbody {
+	.time_input_calendar-month-panel-tbody {
 		background: #FFF;
 	}
 
@@ -278,16 +280,16 @@
 		border: solid 1px rgba(65, 79, 91, 0.2);
 	}
 
-	.calendar-month-panel-selected-cell {
+	.time_input_calendar-month-panel-selected-cell {
 		background-color: #f1f1f1;
 	}
 }
 
-.calendar-month-panel-year-select {
+.time_input_calendar-month-panel-year-select {
 	display: none;
 }
 
-.calendar-year-panel {
+.time_input_calendar-year-panel {
 	display: none;
 }
 
@@ -302,8 +304,8 @@
 	}
 }
 
-.formError_calendar {
-	.calendar-input {
+.formError_time_input_calendar {
+	.time_input_calendar-input {
 		box-shadow: inset 0px 0px 17px -5px rgba(240, 36, 36, 0.88);
 	}
 }
@@ -375,3 +377,9 @@
 	}
 }
 
+.time_input_calendar-disabled-cell{
+	cursor: not-allowed;
+	&:hover{
+		cursor: not-allowed;
+	}
+}

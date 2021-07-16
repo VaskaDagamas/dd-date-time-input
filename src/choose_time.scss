@@ -1,6 +1,9 @@
 @import 'mixin.scss';
 
 
+.abs_center{
+    @include PosAbsCent;
+}
 
 .choose_time_container{
     display: inline-block;
@@ -44,7 +47,6 @@
     }
 }
 
-
 .choose_time {
     width: 230px;
     height: 271px;
@@ -62,7 +64,7 @@
         list-style: none;
         display: inline-block;
         width: 50%;
-        height: calc(100% - 26px);
+        height: inherit;
         -ms-overflow-y: scroll;
         overflow-y: scroll;
         text-align: center;
@@ -97,7 +99,6 @@
             background-color: rgba(65, 121, 248, 0.7)
         }
     }
-
 }
 
 .orange_color{
