@@ -35,11 +35,6 @@ const TimeInput = (Base) => class TimeInput extends Base{
 			// messageText: moment(props.value).isValid() ? null : state.messageText,
 		}
 	}
-	componentDidUpdate(prevProps, prevState, snapshot){
-		// if(prevState.isEmptyDate && !this.state.isEmptyDate){
-		// 	this.updateInputs(moment(this.state.value))
-		// }
-	}
 	componentDidMount() {
 		// this.addListenners()
 		this.mounted = true;
@@ -52,11 +47,12 @@ const TimeInput = (Base) => class TimeInput extends Base{
 	setNewDate = (newValue) => {//
 		this.messageWasShowed = false;
 		this.tempDate = newValue;
-		this.validateDate();
+		this.validateDate(newValue);
 		this.valueWasChange = true;
 		this.props.onChange({name: this.props.name, value: newValue})
+
 	}
-	validateDate = () => {
+	validateDate = (value) => {
 		if(this.valueWasChange && !this.messageWasShowed){
 			if(!this.allValuesIsValid){
 				let messageText = '';
@@ -80,13 +76,13 @@ const TimeInput = (Base) => class TimeInput extends Base{
 				return
 			}
 		}
-		if(this.valueWasChange && !this.state.value){
+		if(this.valueWasChange && !value){
 			this.setState({
 				messageText: 'Заполните дату'
 			})
 			return
 		}
-		if(this.valueWasChange && !moment(this.state.value).isValid()){
+		if(this.valueWasChange && !moment(value).isValid()){
 			this.setState({
 				messageText: 'Неверно указана дата'
 			})
@@ -122,7 +118,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 	}
 	onClickOutside = () => {
 		if(this.mounted){
-			this.validateDate();
+			this.validateDate(this.state.value);
 			this.clearSelectedElement();
 		}
 	}
@@ -139,7 +135,8 @@ const TimeInput = (Base) => class TimeInput extends Base{
 	render(){
 		const {dateTimePickerVisibility, value, isEmptyDate} = this.state;
 		const { className, name, placeholder, hiddenTime,
-				textLabel, onChange, id, defaultValue, minDate, maxDate, disabledDate, orangeStyle} = this.props;
+				textLabel, onChange, id, defaultValue, minDate, maxDate,
+				disabledDate, orangeStyle, clearHidden} = this.props;
 		const idContainer = name + 'dateTimePicker';
 		if(!this.isSelected && !isEmptyDate){//crutch for situation when date was received from props
 			this.updateInputs(value)
@@ -233,13 +230,17 @@ const TimeInput = (Base) => class TimeInput extends Base{
 								onClick = 	{this.tooglePicker }>
 							{calendarIcon(dateTimePickerVisibility)}
 						</button>
-						<button name = 		'clearDate'
-								className = 'time_input_clear_button'
-								style  = 	{{visibility: value ? 'visible' :'hidden' }}
-								disabled =  {disabledDate}
-								onClick = 	{this.clearDate }>
-							{closeIcon('time_input_close_icon')}
-						</button>
+						{
+							!clearHidden ?
+							<button name = 		'clearDate'
+									className = 'time_input_clear_button'
+									style  = 	{{visibility: value ? 'visible' :'hidden' }}
+									disabled =  {disabledDate}
+									onClick = 	{this.clearDate }>
+								{closeIcon('time_input_close_icon')}
+							</button> :
+							null
+						}
 					</div>
 					<Tooltip {...this.state} clearMessage = {this.hideMessage}/>
 					<DateTimePicker onSelectDate =             { this.selectDateFromPickerInstructions }
