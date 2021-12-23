@@ -27,6 +27,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 		}
 		window.T = this
 		this.diaplayName = 'TimeInput';
+		moment.locale('ru')
 	}
 	static getDerivedStateFromProps(props, state) {
 		return {
@@ -45,6 +46,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 		// this.removeListenner()
 	}
 	setNewDate = (newValue) => {//
+		console.log(`TIMEINPUT SETNEWDATE ${newValue}`)
 		this.messageWasShowed = false;
 		this.tempDate = newValue;
 		this.validateDate(newValue);
@@ -210,9 +212,9 @@ const TimeInput = (Base) => class TimeInput extends Base{
 								this.secondsVisibility ?
 								<Fragment>
 									:
-									<input type =        'text'
+									<input  type =        'text'
 											className =   'seconds_input'
-											onChange =    {(e)=>this.setSetSeconds(e.target.value)}
+											onChange =    {(e)=>this.setSeconds(e.target.value)}
 											value =       {this.getSeconds}
 											onBlur =      {this.onBlurSeconds}
 											onFocus =     {this.selectElement}
