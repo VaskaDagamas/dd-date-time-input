@@ -46,7 +46,6 @@ const TimeInput = (Base) => class TimeInput extends Base{
 		// this.removeListenner()
 	}
 	setNewDate = (newValue) => {//
-		console.log(`TIMEINPUT SETNEWDATE ${newValue}`)
 		this.messageWasShowed = false;
 		this.tempDate = newValue;
 		this.validateDate(newValue);
