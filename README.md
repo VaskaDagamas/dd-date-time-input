@@ -9,6 +9,7 @@
                                 name =          'startTime'
                                 value =         {this.state.startTime}
                                 maxDate =       {this.state.endTime}
+                                minDate =       {this.state.startTime}
                                 onChange =      {this.enterToState}
                                 textLabel =     {language_variant.start_of_period}/>
 ```

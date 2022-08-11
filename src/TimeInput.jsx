@@ -16,7 +16,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 		super(props);
 		this.state = {
 			dateTimePickerVisibility: 	false,
-			value: 					moment(this.props.value),
+			value: 					this.props.value ? moment(this.props.value) : null,
 			isEmptyDate: 			!moment(this.props.value).isValid()
 		}
 		this.initialState = this.state;
@@ -26,14 +26,21 @@ const TimeInput = (Base) => class TimeInput extends Base{
 			this.tempDate = moment(this.props.value)
 		}
 		window.T = this
-		this.diaplayName = 'TimeInput';
+		this.displayName = 'TimeInput';
 		moment.locale('ru')
 	}
 	static getDerivedStateFromProps(props, state) {
 		return {
-			value: moment(props.value),
+			value: props.value ? moment(props.value) : null,
 			isEmptyDate: !moment(props.value).isValid(),
 			// messageText: moment(props.value).isValid() ? null : state.messageText,
+		}
+	}
+	componentDidUpdate(prevProps, prevState) {
+		const {value} = this.props;
+		if(prevState.isEmptyDate == false && value == null){
+			this.clearEnteredValues();
+			this.forceUpdate();
 		}
 	}
 	componentDidMount() {
@@ -51,7 +58,6 @@ const TimeInput = (Base) => class TimeInput extends Base{
 		this.validateDate(newValue);
 		this.valueWasChange = true;
 		this.props.onChange({name: this.props.name, value: newValue})
-
 	}
 	validateDate = (value) => {
 		if(this.valueWasChange && !this.messageWasShowed){
