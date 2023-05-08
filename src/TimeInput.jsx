@@ -9,15 +9,32 @@ import ReactDOM                                          from "react-dom";
 
 import './timeInput.scss'
 
-let crutch
+export const TIContext = React.createContext(null);
+		
 
+//dublicate in src\InfiniteCalendar\util\index.js
+export function getSavedLocale(localeFromProps) {
+	const savedLocale = localeFromProps ? localeFromProps : localStorage.getItem('lang') ;
+	if(savedLocale == 'ua' ){
+		return 'uk'
+	  
+	}
+	return savedLocale ? savedLocale : 'uk'
+	
+}
 const TimeInput = (Base) => class TimeInput extends Base{
 	constructor(props){
 		super(props);
+
+		const {locale} = this.props;
+		const componentLocale = getSavedLocale(locale);
+		moment.locale(componentLocale);
+
 		this.state = {
 			dateTimePickerVisibility: 	false,
 			value: 					this.props.value ? moment(this.props.value) : null,
-			isEmptyDate: 			!moment(this.props.value).isValid()
+			isEmptyDate: 			!moment(this.props.value).isValid(),
+			locale: 				componentLocale
 		}
 		this.initialState = this.state;
 		this.secondsVisibility = this.props.withSeconds ? true : false;
@@ -27,7 +44,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 		}
 		window.T = this
 		this.displayName = 'TimeInput';
-		moment.locale('ru')
+		
 	}
 	static getDerivedStateFromProps(props, state) {
 		return {
@@ -140,7 +157,7 @@ const TimeInput = (Base) => class TimeInput extends Base{
 		this.props.onChange({name: this.props.name, value: null})
 	}
 	render(){
-		const {dateTimePickerVisibility, value, isEmptyDate} = this.state;
+		const {dateTimePickerVisibility, value, isEmptyDate, locale} = this.state;
 		const { className, name, placeholder, hiddenTime,
 				textLabel, onChange, id, defaultValue, minDate, maxDate,
 				disabledDate, orangeStyle, clearHidden} = this.props;
@@ -249,26 +266,28 @@ const TimeInput = (Base) => class TimeInput extends Base{
 							null
 						}
 					</div>
-					<Tooltip {...this.state} clearMessage = {this.hideMessage}/>
-					<DateTimePicker onSelectDate =             { this.selectDateFromPickerInstructions }
-									onSelectTime =             { this.selectTimeFromPickerInstructions }
-									dateTimePickerVisibility = { dateTimePickerVisibility }
-									selectedHour = 			   { this.getHours}
-									selectedMinute = 		   { this.getMinutes}
-									hidePicker =               { this.hidePicker }
-									minDate = 				   {minDate}
-									maxDate = 				   {maxDate}
-									value = 				   {value}
-									idContainer = 			   { idContainer }
-									orangeStyle = 			   {orangeStyle}
-									name =                     { name } />
+					<TIContext.Provider value = { locale }>		
+						<Tooltip {...this.state} clearMessage = {this.hideMessage}/>
+						<DateTimePicker onSelectDate =             { this.selectDateFromPickerInstructions }
+										onSelectTime =             { this.selectTimeFromPickerInstructions }
+										dateTimePickerVisibility = { dateTimePickerVisibility }
+										selectedHour = 			   { this.getHours}
+										selectedMinute = 		   { this.getMinutes}
+										hidePicker =               { this.hidePicker }
+										minDate = 				   {minDate}
+										maxDate = 				   {maxDate}
+										value = 				   {value}
+										idContainer = 			   { idContainer }
+										orangeStyle = 			   {orangeStyle}
+										name =                     { name } />
+					</TIContext.Provider>					
 
 				</ClickOutside>
 	}
 }
 
 
-arrayClasses.push({el: TimeInput, name: 'TimeInput'})
+arrayClasses.push({el: TimeInput, name: 'TimeInput'});
 // arrayClasses.push({el: TimePicker, name: 'TimePicker'})
 const ViewTimeInput = TimeInput(SplitClasses(arrayClasses, Component));
 
@@ -285,7 +304,7 @@ function Tooltip(props){
 
 function DateTimePicker(props){//add here value for calendar
 	const {dateTimePickerVisibility, onSelectDate, name, hidePicker, onSelectTime, timeValue, idContainer,
-		orangeStyle,
+		orangeStyle, locale,
 		selectedHour, selectedMinute} = props;
 	const disabledDate = (value) => {
 		if(props.maxDate && props.minDate){
@@ -305,16 +324,18 @@ function DateTimePicker(props){//add here value for calendar
 								id = {idContainer}
 							  	className = 'date_time_picker_wrapper ABSFixCent'>
 					<button onClick = {hidePicker} className = 'close_picker_btn'>{closeIcon('close_icon')}</button>
-					<NewCalendar 	onSelect = 	{onSelectDate}
-									prefixCls = {'time_input_calendar'}
-									disabledDate = {disabledDate}
-									minDate = 	{props.minDate}
-									maxDate =   {props.maxDate}
-									onChange = 	{(e) => onSelectDate({name: name, value:e}) }
-									value = {moment(props.value).isValid() ? props.value : moment()}
-									name = 	   	{name}/>
-					<TimePicker active = {true}
+					<NewCalendar 	onSelect = 		{onSelectDate}
+									prefixCls = 	{'time_input_calendar'}
+									locale = 		{locale}
+									disabledDate = 	{disabledDate}
+									minDate = 		{props.minDate}
+									maxDate =   	{props.maxDate}
+									onChange = 		{e => onSelectDate({name: name, value:e}) }
+									value = 		{moment(props.value).isValid() ? props.value : moment()}
+									name = 	   		{name}/>
+					<TimePicker active = 				{true}
 								orangeStyle = 			{orangeStyle}
+								locale = 				{locale}
 								selectedHour = 			{selectedHour}
 								selectedMinute = 		{selectedMinute}
 								idParrentContainer = 	{idContainer}

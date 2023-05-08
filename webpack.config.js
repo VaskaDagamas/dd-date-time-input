@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
-// const WrapperPlugin = require('wrapper-webpack-plugin');
+
+
 module.exports = {
     devServer: {
       contentBase:              './src/index.js',
@@ -21,6 +22,8 @@ module.exports = {
       // https:                 false,
       // compress:              false,
    },
+
+    entry: './src/index.js',
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'main.js',
@@ -29,7 +32,6 @@ module.exports = {
             type: 'umd'
         }
     },
-    entry: './src/index.js',
     module: {
         rules: [{
                 test: /\.(jsx|js)$/,
@@ -61,7 +63,9 @@ module.exports = {
         'react': 'react',
         'react-click-outside': 'react-click-outside',
         'react-dom': 'react-dom',
-        'moment': 'moment',
+        'moment': 'moment', 
+        'moment/locale/ru.js': 'moment/locale/ru.js', 
+        'moment/locale/uk.js': 'moment/locale/uk.js',
         'create-react-class': 'create-react-class',
         'css-loader': 'css-loader',
         'rc-util':  'rc-util',

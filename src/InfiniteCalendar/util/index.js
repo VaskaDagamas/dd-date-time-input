@@ -2,19 +2,19 @@ import moment from 'moment';
 import ru from 'moment/locale/ru.js'
 import uk from 'moment/locale/uk.js'
 
-const savedLocale = localStorage.getItem('language');
-if(savedLocale == 'ua' ){
-  moment.locale('uk')
-}
-if(savedLocale == 'ru'){
-  moment.locale('ru')
-}
-if(savedLocale == 'en'){
-  moment.locale('en')
-}
-if(!savedLocale){
-  moment.locale('ru')
-}
+// function getSavedLocale(localeFromProps) {
+//   const savedLocale = localeFromProps ? localStorage.getItem('lang') : localeFromProps;
+//   if(savedLocale == 'ua' ){
+//     return 'uk'
+    
+//   }
+//   return savedLocale ? savedLocale : 'uk'
+  
+// }
+
+
+
+
 const defaultDisabledTime = {
   disabledHours() {
     return [];

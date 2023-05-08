@@ -1,7 +1,22 @@
 import React            from 'react'
 import  './choose_time.scss'
+import {TIContext} from "./TimeInput.jsx"
 
 
+const langLibrary = {
+    hours: {
+        ru: 'часы',
+        en: 'hour',
+        ua: 'години',
+        uk: 'години'
+    },
+    minutes: {
+        ru: 'минуты',
+        en: 'minute',
+        ua: 'хвилини',
+        uk: 'хвилини'
+    }
+}
 
 class TimePicker extends React.Component{
     constructor(props) {
@@ -122,12 +137,17 @@ const TPStyles = {
         return Number(selectedValue) == Number(elValue) ? { backgroundColor: this.color } : null
     }
 }
-
+ 
 function HoursListView(props) {
-    return  <ul className = 'hours' >
-                <li className = "choose_time_name">часы</li>
-                <HHList {...props} />
-            </ul>
+    return  <TIContext.Consumer>
+                {
+                    localeValue =>   <ul className = 'hours' >
+                                    <li className = "choose_time_name">{langLibrary.hours[localeValue]}</li>
+                                    <HHList {...props} />
+                                </ul>
+                }
+            
+            </TIContext.Consumer>
 }
 
 function HHList(props) {
@@ -143,10 +163,15 @@ function HHList(props) {
 }
 
 function MinutesListView(props) {
-    return  <ul className = 'minutes'>
-                <li className = "choose_time_name">минуты</li>
-                <MMListView {...props} />
-            </ul>
+    return  <TIContext.Consumer>
+                {
+                    localeValue =>   <ul className = 'minutes'>
+                                    <li className = "choose_time_name">{langLibrary.minutes[localeValue]}</li>
+                                    <MMListView {...props} />
+                                </ul>
+                }
+                        
+           </TIContext.Consumer>
 }
 
 function MMListView(props) {

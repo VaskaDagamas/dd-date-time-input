@@ -1,11 +1,12 @@
 // import 'babel-polyfill'
 import React      from 'react'
-import TimeInput  from './TimeInput.jsx'
+import TimeInput, {getSavedLocale}  from './TimeInput.jsx'
 import { render } from 'react-dom'
 import moment     from 'moment'
 import TimePicker from './TimePicker.jsx'
+moment.locale(getSavedLocale());
 export default TimeInput;
-export {TimePicker};
+export {TimePicker, };
 // class Container extends React.Component {
 //     constructor(props){
 //         super(props);
