@@ -92,13 +92,11 @@ const CalendarMixin = {
     },
     setValue(value) {
         const originalValue = this.state.value;
-        console.log("%c setValue", coCSS, value)
         if(!('value' in this.props)) {
             this.setState({
                 value,
             });
         }
-        console.log("%c originalValue", coCSS, originalValue)
         if(originalValue && value && !originalValue.isSame(value) ||
             (!originalValue && value) ||
             (originalValue && !value)) {

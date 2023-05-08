@@ -6,7 +6,7 @@ import moment     from 'moment'
 import TimePicker from './TimePicker.jsx'
 moment.locale(getSavedLocale());
 export default TimeInput;
-export {TimePicker, };
+export {TimePicker };
 // class Container extends React.Component {
 //     constructor(props){
 //         super(props);
